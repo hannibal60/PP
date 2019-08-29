@@ -1,0 +1,4 @@
+Agregar cronograma de tus actividades.
+de desarrollo de componentes cuanto tiempo te tardaras
+ejm.
+si me toco BD la entrego el proximo jueves, subir un documento con un diagrama de gantt de actividades.
