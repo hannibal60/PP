@@ -1,0 +1,9 @@
+Agregar cronograma de tus actividades.
+de desarrollo de componentes cuanto tiempo te tardaras
+ejm.
+si me toco BD la entrego el proximo jueves, subir un documento con un diagrama de gantt de actividades.
+
+
+NOTA ALERTA
+
+especificar que componente te toco en un txt, nombre de equipo, y tiempo que te tardas en entregarlo.
