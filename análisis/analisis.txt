@@ -1,2 +1,7 @@
-analisis
-ñ
+análisis
+
+Desarrollo del análisis del componente
+con sus debidos casos de uso y toda la descripción del proyecto
+nombrar con componente y equipo si existe version colocar.
+
+
