@@ -1,0 +1,11 @@
+agregar un txt con tu nombre de equipo, nombre de integrantes
+componente a desarrollar, y tiempo de entrega.
+
+dentro del txt colocar los componentes relacionados y 
+las tablas relacionadas, toma el formato siguiente;
+
+Componentes	
+	texto
+Base de Datos
+	texto
+Equipo Rocket: Interfaz Ventana Paciente V2, para miercoles 5 de la tarde

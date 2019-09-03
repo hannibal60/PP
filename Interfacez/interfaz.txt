@@ -1,1 +1,3 @@
 Diseño de interfaz
+Por cada ventana de interfaz que se le asigno a cada equipo, crear la carpeta de su ventana, donde organizaran sus versiones, 
+documentos u otra intoformacion
