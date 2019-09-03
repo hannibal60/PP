@@ -1,1 +1,3 @@
 base de datos
+archivos de base de datos
+nombrar con componente y equipo.
