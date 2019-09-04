@@ -8,3 +8,4 @@ Componentes
 	texto
 Base de Datos
 	texto
+Equipo Rocket: Interfaz Ventana Paciente V2, para miercoles 5 de la tarde
