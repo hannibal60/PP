@@ -3,7 +3,9 @@ Equipo AFK
 	-Ismael Margarito Estrada
 	Componente Perfil Entrega 12/09/2019
 ------------------------------------------
-Equipo 1
+Equipo 1	
+	Rafael Alejandro Maldonado Valle 
+	Moises Vidal Hernandez 
 	Componente Datos del paciente
 ------------------------------------------
 Equipo Charlie
