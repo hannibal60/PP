@@ -1,0 +1,1 @@
+Especificar la resolucion estandar a trabajar por ventana 
