@@ -1,1 +1,2 @@
-Especificar la resolucion estandar a trabajar por ventana 
+-Especificar la resolucion estandar a trabajar por ventana
+-Versionar Interfaces por carpetas 
