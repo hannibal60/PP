@@ -1,25 +1,13 @@
 practicas paralelo
 
-subir descripcion de analisis de funciones en  analisis
+componentes
 
-1.	Equipo 1
-	i.	Moisés Vidal Hernández
-	ii.	Rafael Maldonado Valle
-2.	Equipo AFK
-	i.	Ismael Margarito Estrada
-	ii.	David Velázquez Ramírez
-3.	Equipo Charlie
-	i.	Jovani Martínez
-	ii.	Eduardo Molina
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 4.	Equipo OceanMan
 	i.	Kely Michell Rojas
 	ii.	Jorge Diaz Gutiérrez
 
-
-analisis
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-perfil paciente (acciones (CRUD) Equipo charlie
+perfil paciente (acciones (CRUD) 
 crear  metodos que establesca la insercion, lectura, modificacion y borrado de los datos del usuario
 	Nombre:
 	Apellido paterno:
@@ -30,22 +18,17 @@ crear  metodos que establesca la insercion, lectura, modificacion y borrado de l
 		* hereditario/familiar
 		* patologicos
 		* quirurgicos
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-
-perfil del medico
-	Nombre:Apellido paterno:Apellido materno:
-	CURP:
-	cedula:
-	direccion:
-	edad
-	sexo
-	telefono
-
-/////////////////////////////////////////////////////////////////////////////////////////////
+1.	Equipo 1
+	i.	Moisés Vidal Hernández
+	ii.	Rafael Maldonado Valle
+2.	Equipo AFK
+	i.	Ismael Margarito Estrada
+	ii.	David Velázquez Ramírez
 se conectara a BD el componente del historial, del cual se extraeran datos
 de la BD, de la tabla del perfil del usuario
-historial clinico Equipo 2:AFK
+historial clinico
 conexion BD en oracle/java
 
 	extraer datos del paciente
@@ -65,83 +48,17 @@ conexion BD en oracle/java
 			* Edad
 			* Sexo
 			* Tipo de sangre
- 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-componentes
-/////////////////////////////////////////////////////////////////////////////////////////////
-conexion BD en oracle/java
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
- 
-public class conexion_oracle {
-    public static void main(String[] args) {
-        try {
-            Class.forName("oracle.jdbc.driver.OracleDriver");
-            Connection  conexion = DriverManager.getConnection("jdbc:oracle:thin:@localhot:1521:SID_hospital","USER","PASS");
-        } catch (SQLException | ClassNotFoundException ex) {
-            System.out.println("Error en la conexión de la base de datos");
-        }
-         
-    }
-}
-/////////////////////////////////////////////////////////////////////////////////////////////
-
-///////conexion BD en mysql/java
-public class Conexion {
-    Connection con;
-    public Conexion(){
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital","root","12345678");
-        } catch (Exception e) {
-            System.err.println("Error:" +e);
-        }
-    }
-}
-/////////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////
-insercion a bd desde netbeans a gestor mysql/oracle
-
-public void Insertar(int ID, String nombre, String APaterno, String AMaterno, String Curp, int telefono, String direccion) {
-
-    // Establecer conexión con la base de datos
-    ConexionBD conexion = new ConexionBD();
-
-        // Pasamos el objeto Connection de nuestra clase "ConexionBD" a esta instancia por medio del método getConnection()
-        Connection con = conexion.getConnection();
-
-        // Crear sentencia SQL para insertar en la base de datos
-        String query = "INSERT INTO llamadas (ID, nombre, APaterno, AMaterno, Curp, telefono, direccion) values (?, ?, ?, ?, ?, ?, ?)";
-
-        try {
-            Statement st = con.createStatement();
-            ResultSet rs = st.executeQuery(query);
-
-            rs.setInt       (1, ID);
-            rs.setString    (2, nombre);
-            rs.setString    (3, APaterno);
-            rs.setString    (4, AMaterno);
-            rs.setString    (5, Curp);
-            rs.setInt       (6, telefono);
-            rs.setDouble    (7, direccion);
-
-            // Indicamos que comience la actualización de la tabla en nuestra base de datos
-            st.executeUpdate();
-
-            // Cerramos las conexiones, en orden inverso a su apertura
-            st.close();
-            con.close();
-
-            System.out.println("Llamada agregada con éxito a la base de datos.");
-        } catch (SQLException e) {
-            System.out.println("Error!, la llamada no pudo ser agregada a la base de datos.");
-        }
-    }
-/////////////////////////////////////////////////////////////////////////////////////////////
-eliminar datos de BD
+3.	Equipo Charlie
+	i.	Jovani Martínez
+	ii.	Eduardo Molina
+perfil del medico
+	Nombre:Apellido paterno:Apellido materno:
+	CURP:
+	cedula:
+	direccion:
+	edad
+	sexo
+	telefono
 
