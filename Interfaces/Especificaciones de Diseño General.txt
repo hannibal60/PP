@@ -1,0 +1,10 @@
+Tipo de Letra--> Segoe UI tamaño Bold
+Tamaños de letra:
+		Letra normal 12
+		Titulos 24
+		Subtitulos 18
+		Otros 14
+Colores:
+	[181,77,180] rosa Titulos
+	[96,  83, 150]morado Texto
+	[232, 201, 232] Lila 
