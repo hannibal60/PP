@@ -1,8 +1,26 @@
 practicas paralelo
 
 subir descripcion de analisis de funciones en  analisis
+
+1.	Equipo 1
+	i.	Moisés Vidal Hernández
+	ii.	Rafael Maldonado Valle
+2.	Equipo AFK
+	i.	Ismael Margarito Estrada
+	ii.	David Velázquez Ramírez
+3.	Equipo Charlie
+	i.	Jovani Martínez
+	ii.	Eduardo Molina
+4.	Equipo OceanMan
+	i.	Kely Michell Rojas
+	ii.	Jorge Diaz Gutiérrez
+
+
 analisis
-perfil paciente (acciones (CRUD))
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+perfil paciente (acciones (CRUD) Equipo charlie
+crear  metodos que establesca la insercion, lectura, modificacion y borrado de los datos del usuario
 	Nombre:
 	Apellido paterno:
 	Apellido materno:
@@ -24,8 +42,12 @@ perfil del medico
 	sexo
 	telefono
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+se conectara a BD el componente del historial, del cual se extraeran datos
+de la BD, de la tabla del perfil del usuario
+historial clinico Equipo 2:AFK
+conexion BD en oracle/java
 
-historial clinico
 	extraer datos del paciente
 	nombre completo
 	folio asignado
@@ -43,7 +65,7 @@ historial clinico
 			* Edad
 			* Sexo
 			* Tipo de sangre
-
+ 
 
 componentes
 /////////////////////////////////////////////////////////////////////////////////////////////
