@@ -1,0 +1,14 @@
+Equipo AFK
+	-David Velazquez Ramirez
+	-Ismael Margarito Estrada
+	Componente Perfil Entrega 12/09/2019
+------------------------------------------
+Equipo 1
+	Componente Datos del paciente
+------------------------------------------
+Equipo Charlie
+	Componenete Datos del medico
+------------------------------------------
+Equipo OceanMan
+	Componente Datos clinicos
+------------------------------------------
