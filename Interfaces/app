@@ -1,0 +1,64 @@
+practicas paralelo
+
+componentes
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+4.	Equipo OceanMan
+	i.	Kely Michell Rojas
+	ii.	Jorge Diaz Gutiérrez
+
+perfil paciente (acciones (CRUD) 
+crear  metodos que establesca la insercion, lectura, modificacion y borrado de los datos del usuario
+	Nombre:
+	Apellido paterno:
+	Apellido materno:
+	CURP:
+	antecedentes:
+		* personales
+		* hereditario/familiar
+		* patologicos
+		* quirurgicos
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+1.	Equipo 1
+	i.	Moisés Vidal Hernández
+	ii.	Rafael Maldonado Valle
+2.	Equipo AFK
+	i.	Ismael Margarito Estrada
+	ii.	David Velázquez Ramírez
+se conectara a BD el componente del historial, del cual se extraeran datos
+de la BD, de la tabla del perfil del usuario
+historial clinico
+conexion BD en oracle/java
+
+	extraer datos del paciente
+	nombre completo
+	folio asignado
+	CURP
+	fecha de nacimiento
+	telefono
+	direccion
+	municipio
+	colonia
+	calle
+	numero
+		otros
+			* Religión
+			* Trabajo
+			* Edad
+			* Sexo
+			* Tipo de sangre
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+3.	Equipo Charlie
+	i.	Jovani Martínez
+	ii.	Eduardo Molina
+perfil del medico
+	Nombre:Apellido paterno:Apellido materno:
+	CURP:
+	cedula:
+	direccion:
+	edad
+	sexo
+	telefono
+
