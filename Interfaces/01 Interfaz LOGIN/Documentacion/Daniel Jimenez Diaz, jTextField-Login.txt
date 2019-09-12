@@ -1,0 +1,13 @@
+Caracteristicas del comopnente: jTextfield (campo para ingresar el usuario)
+
+Tipo de dato que almacena: Cadena de texto.
+
+Longitud del dato que almacenara: 245 caracteres.
+
+Valores permitidos: Cadenas de texto.
+
+Version del componete: 1.0
+
+Donde se almacenara: En la base de datos de usuario.
+
+Fecha de entrega: 12/09/2019
