@@ -5,6 +5,8 @@ Equipo 1
 	-Rafael Alejandro Maldonado Valle
 	-Moises Vidal Hernandez
 
+equipos
 
-que actividad que fecha.
+actividad
+fecha
 

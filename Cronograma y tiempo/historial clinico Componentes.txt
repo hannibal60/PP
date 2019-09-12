@@ -18,5 +18,8 @@ Integrantes: Eduardo Molina Torres
 Fecha de entrega: 14/09/19
 ------------------------------------------
 Equipo OceanMan
-	Componente Datos clinicos
+	Componente Datos clinicos v1 martes ese mismo.
+	componte datos cli v2 fecha..
+
+fecha de entrega
 ------------------------------------------
