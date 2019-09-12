@@ -1,4 +1,4 @@
-Lider: CARLOS JONATHAN LOPEZ PALMA
+﻿Lider: CARLOS JONATHAN LOPEZ PALMA
 --------------------------------------
 Equipo Bombariana
 -Daniel Jimenez Diaz/7221147512			componente 3
@@ -17,6 +17,12 @@ Equipo REX
 Equipo M&M
 -Hugo Daniel Rojas Fuestes
 -Alan Alexis Velazquez Romero
+-----------------------
+Equipo Sinskins
+- Jesus Alejandro Malvaes Vega					
+- Carlos Martin Garcia Sanchez
+- José Guadalupe Ibarra Rodríguez
+------------------------------
 			Características
 
 -Hacer su documento txt con llamado: <nombre del responsable> <componente>-Login
