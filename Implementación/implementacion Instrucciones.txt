@@ -1,0 +1,4 @@
+Cada carpeta corresponde a su componente asinado, deberan guardar sus versiones de codigo en dicha carpeta.
+ Podran apoyarse del codigo puesto en la carpeta CODIGO COPIA
+	
+	NOTA: NO TOCAR LA CARPETA CODIGO VALIDO
