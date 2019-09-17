@@ -1,0 +1,15 @@
+Descripcion del elemento 1-> JLabel1 
+-Nombre del componente: Fondo Blanco.
+-Valores que almacena:imagenes png, jlabels, jbuttons, jpanel, texfields. 
+-Dimensiones: Autoajustable.
+-Funciones que realiza: Almacena los diferentes componentes de la interfaz del login.
+-Tamaño de fuente: null.
+-Color: Blanco.
+_______________________________________________________________________________________
+Descripcion del elemento 3-> JLabel3 
+-Nombre del componente: icono cerrar.
+-Valores que almacena:Comando cerrar(). 
+-Dimensiones: Autoajustable.
+-Funciones que realiza: Cierra la ventana de login. 
+-Tamaño de fuente: null.
+-Color: Morado
