@@ -1,0 +1,9 @@
+Descripcion del elemento 12-> JButton2
+-Nombre del componente: Botón "Recuperar".
+-Valores que almacena: null.
+-Dimensiones: Autoajustable.
+-Funciones que realiza: Concede el acceso a la ventana "", donde el usuario podrá recuperar la contraseña de su cuenta por medio de un correo electrónico.
+-Tamaño de fuente: 14.
+-Color: [96,  83, 150] Morado.
+Equipo: M&M
+Encargado del documento: Hugo Daniel Rojas Fuentes
