@@ -1,0 +1,8 @@
+Componente 7
+Descripcion del Elemento: Jlabel8 
+Nombre del componente: Icono de Usuario
+valores que Almacena: Imagenes
+Dimensiones: width:150 x 150
+Funciones que realiza:Muestra un icono que representa al usuario
+Tamaño de fuente= none
+Color: [96,  83, 150]morado y blanco [1,1,1]
