@@ -1,0 +1,10 @@
+Equipo Charly
+
+Eduardo Molina Torres
+
+Armando Jovani Martinez Ruiz
+
+Fecha de entrega : 20/09/2019
+
+Desarrollo de código y funcionalidad del componente datos de médico.
+.
