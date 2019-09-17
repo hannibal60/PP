@@ -1,0 +1,7 @@
+Descripcion del componente: Jlabel10
+-Nombre del componente: Logotipo
+-Valores que almacena: Imagen PNG, jlabels
+-Dimenciones: WIDTH 100, HEIGHT 120
+-Funciones que realiza: Contiene la imagen del logotipo de la empresa.
+-Tamaño de la fuente:Null
+-Color: [181,77,180] rosa, [0, 0, 0] negro 
