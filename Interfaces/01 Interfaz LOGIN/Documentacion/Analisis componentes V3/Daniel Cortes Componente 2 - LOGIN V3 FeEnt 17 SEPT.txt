@@ -1,0 +1,7 @@
+Descripcion del elemento 2-> JLabel2
+-Nombre del componente: Cuadro Morado.
+-Valores que almacena:imagenes png, jlabels.
+-Dimensiones: WIDTH 70, HEIGHT 40
+-Funciones que realiza: Fondo de boton cerrar
+-Tamaño de fuente: null.
+-Color: Morado

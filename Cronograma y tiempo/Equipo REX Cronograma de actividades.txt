@@ -3,5 +3,9 @@ Equipo REX: Elaboracion de "super usuario"
 -Rocio Venegas Salas.
 Super usuario
 	-Analisis
+
+--------------------------------------------------
+-Ilse Vanessa Gutierrez Meneses. COMPONENTE USUARIO
+-Rocio Venegas Salas. COMPONENTE CONTRASEÑA
 	
 FECHA DE ENTREGA:03/SEP/19
