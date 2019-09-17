@@ -1,0 +1,7 @@
+Descripcion del elemento 3-> JLabel3
+-Nombre del componente: Icono cerrar.
+-Valores que almacena:imagenes png, jlabels.
+-Dimensiones: WIDTH 30, HEIGHT 30
+-Funciones que realiza:Boton para cerrar login
+-Tamaño de fuente: null.
+-Color: Blanco
