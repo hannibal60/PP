@@ -3,7 +3,8 @@ Equipo AFK
 	-Ismael Margarito Estrada
 	Componente Perfil v1 Entrega 12/09/2019 ENTREGADO A TIEMPO
 	Componente Perfil v2 Entrega 17/09/2019 ENTREGADO A TIEMPO
-	Componente Perfil v3 Entrega 19/09/2019
+	Componente Perfil v3 Entrega 19/09/2019 ENTREGADO A TIEMPO
+	Componente Perfil Código V1.0 Entrega 22/09/2019
 ------------------------------------------
 Equipo 1	
 	Rafael Alejandro Maldonado Valle 
