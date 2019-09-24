@@ -1,0 +1,22 @@
+Analisis componente 7 - interfaz login
+
+Label "usuario"
+- Fuente: Arial 14
+- Dimención de [74, 17]
+- colores
+letra: 0 0 0
+fonto: 255 051 204
+Nombre de variable: lb_user
+
+Label "comtraseña"
+- Fuente: Arial 14
+- Dimención de [74, 17]
+- colores
+letra: 0 0 0
+fonto: 255 051 204
+Nombre de variable: lb_contra
+
+------------------------------
+FECHA DE ENTREGA: JUEVES 12 SEPTIEMBRE 2019
+
+

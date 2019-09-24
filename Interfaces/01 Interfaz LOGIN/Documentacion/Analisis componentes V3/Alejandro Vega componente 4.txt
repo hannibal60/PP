@@ -1,0 +1,10 @@
+Componente 4
+Descripcion del Elemento: Jlabel4 Titulo
+Nombre del componente: Titulo
+valores que Almacena: texto
+Dimensiones: width:120, 40
+Funciones que realiza:Muestra texto de Titulo
+Tamaño de fuente=Segoe UI tamaño Bold 24
+Color: [181,77,180] rosa Titulos
+
+

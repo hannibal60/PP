@@ -1,0 +1,7 @@
+descripcion del elemento: 10->Anuncios->Jpanel1
+nombre del componente: Anuncios
+Valores que alacena: Imagenes, texto, botones
+Simensiones: Autoajustable
+Funciones que realiza:Muestra anuncios de los servicos que ofrece ******
+tamaño fuente: null
+color: ******

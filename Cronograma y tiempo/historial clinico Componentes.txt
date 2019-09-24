@@ -1,0 +1,28 @@
+Equipo AFK
+	-David Velazquez Ramirez
+	-Ismael Margarito Estrada
+	Componente Perfil v1 Entrega 12/09/2019 ENTREGADO A TIEMPO
+	Componente Perfil v2 Entrega 17/09/2019 ENTREGADO A TIEMPO
+	Componente Perfil v3 Entrega 19/09/2019 ENTREGADO A TIEMPO
+	Componente Perfil Código V1.0 Entrega 22/09/2019
+------------------------------------------
+Equipo 1	
+	Rafael Alejandro Maldonado Valle 
+	Moises Vidal Hernandez 
+	Componente Datos del paciente 12/09/2019
+------------------------------------------
+Equipo Charlie
+
+	Componenete Datos del medico
+
+Integrantes: Eduardo Molina Torres
+             Armando Jovani Martinez Ruiz
+
+Fecha de entrega: 14/09/19
+------------------------------------------
+Equipo OceanMan
+	Componente Datos clinicos v1 martes ese mismo.
+	componte datos cli v2 fecha..
+
+fecha de entrega
+------------------------------------------

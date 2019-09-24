@@ -1,0 +1,7 @@
+Descripcion del componente: Jlabel9
+-Nombre del componente: Titulo-Password
+-Valores que almacena: Texto
+-Dimenciones: WIDTH 150, HEIGHT 40
+-Funciones que realiza: Contiene texto ('Password').
+-Tamaño de la fuente:Segoe UI tamaño bold 12
+-Color: [96, 83, 150]Morado texto

@@ -1,0 +1,9 @@
+Descripcion del elemento 11-> JButton1 
+-Nombre del componente: Botón "Aceptar".
+-Valores que almacena:cadenas de texto tipo "String". 
+-Dimensiones: Autoajustable.
+-Funciones que realiza: extrae las cadenas de los componentes 13 y 14 (JTextField1, jPasswordField1) y busca los datos en la base de datos  "Login". Si la informacion extraida de los componentes 12 y 13 coincide con la informacion de la base de datos permite el acceso a la ventana "VentanaPrincipal", de lo contrario, saltara un mesaje de error.
+-Tamaño de fuente: 14.
+-Color: [96,  83, 150] Morado.
+Equipo: M&M
+Encargado del documento: Alan Alexis Velazquez Romero
