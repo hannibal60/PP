@@ -1,4 +1,4 @@
-Equipo AFK
+﻿Equipo AFK
 	-David Velazquez Ramirez
 	-Ismael Margarito Estrada
 	Componente Perfil v1 Entrega 12/09/2019 ENTREGADO A TIEMPO
@@ -22,7 +22,6 @@ Fecha de entrega: 14/09/19
 ------------------------------------------
 Equipo OceanMan
 	Componente Datos clinicos v1 martes ese mismo.
-	componte datos cli v2 fecha..
-
+	componte datos clinicos v2 jueves 
 fecha de entrega
 ------------------------------------------
