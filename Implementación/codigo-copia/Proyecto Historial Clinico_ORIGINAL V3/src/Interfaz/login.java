@@ -15,13 +15,14 @@ import modelo.Usuarios;
 
 public class login extends javax.swing.JFrame {
 
-    Conexion c=null;
+    Conexion c = null;
     Connection cn;
+
     public login() {
         initComponents();
         setLocationRelativeTo(null);
         c = new Conexion();
-        cn=c.getConexion();
+        cn = c.getConexion();
         jlerror.setForeground(Color.white);
     }
 
@@ -266,30 +267,36 @@ public class login extends javax.swing.JFrame {
         if (!txtUsuario.getText().isEmpty() && !txtPassword.getText().isEmpty()) {
             String pass = new String(txtPassword.getPassword());
             String correo = txtUsuario.getText();
-            if (c.existecorreo(txtUsuario.getText(),cn)) {
-                if (c.compruevapass(pass,cn)) {
+            if (c.existecorreo(txtUsuario.getText(), cn)) {
+                String[] datosuario = c.infor(correo, cn);
+                if (compruevapass(pass, datosuario)) {
                     JOptionPane.showMessageDialog(null, "Bienvenido", "Bienvenido", JOptionPane.QUESTION_MESSAGE);///alerta
                     jlerror.setForeground(Color.white);
                     String nuevoPass = Hash.sha1(pass); ///HASH
                     //this.dispose();
                     //Pantallainicio p = new Pantallainicio();
-                    limpiar();
-                }else{
+                } else {
                     jlerror.setText("Contraseña incorrecto");
                     jlerror.setForeground(Color.red);
-                    limpiar();
                 }
             } else {
                 jlerror.setText("Usuario incorrecto");
                 jlerror.setForeground(Color.red);
-                limpiar();
             }
         } else {
             jlerror.setForeground(Color.red);
         }
+        limpiar();
         btnEntrar.getRootPane().setDefaultButton(null);
         txtUsuario.requestFocus();
     }//GEN-LAST:event_btnEntrarActionPerformed
+    public boolean compruevapass(String pass, String[] dato) {
+        if (pass.equals(dato[3])) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     private void jButtoncerrar1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButtoncerrar1MouseClicked
         this.dispose();

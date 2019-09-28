@@ -57,4 +57,25 @@ public class Conexion {
         }
         return false;
     }
+    
+    public String[] infor(String correo, Connection cn){
+        String sql = "";
+        String buscar = correo;
+        sql = "SELECT *FROM usuarios WHERE correo='" + buscar + "'";
+        String Datos[] = new String[5];
+        try {
+            java.sql.Statement at = cn.createStatement();
+            ResultSet rs = at.executeQuery(sql);
+            while (rs.next()) {
+                Datos[0] = rs.getString(1);//
+                Datos[1] = rs.getString(2);//
+                Datos[2] = rs.getString(3);//
+                Datos[3] = rs.getString(4);//
+            }
+            System.out.println("consulta correcta");
+        } catch (SQLException ex) {
+            System.out.println("error consubd");
+        }
+        return Datos;
+    }
 }
