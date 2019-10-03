@@ -4,13 +4,15 @@
  * and open the template in the editor.
  */
 package Interfaz;
+import cjb.ci.Validaciones;
+import java.sql.Connection;
 import javax.swing.JOptionPane;
 /**
  *
  * @author uriel
  */
 public class Ventana_Paciente extends javax.swing.JFrame {
-
+    Connection con;
     /**
      * Creates new form PacienteV1
      */
@@ -44,7 +46,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jTextFieldAPaterno = new javax.swing.JTextField();
         jTextFieldAMaterno = new javax.swing.JTextField();
         jTextFieldCurp = new javax.swing.JTextField();
-        jButtonEjecutar = new javax.swing.JButton();
+        jButtonConsultar = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
@@ -197,6 +199,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosed(java.awt.event.WindowEvent evt) {
+                formWindowClosed(evt);
+            }
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanelGeneral.setBackground(new java.awt.Color(255, 255, 255));
@@ -281,6 +291,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextFieldNombreActionPerformed(evt);
             }
         });
+        jTextFieldNombre.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextFieldNombreKeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextFieldNombreKeyTyped(evt);
+            }
+        });
         jPanelPerfil.add(jTextFieldNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 210, 30));
 
         jTextFieldAPaterno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -288,6 +306,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jTextFieldAPaterno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldAPaternoActionPerformed(evt);
+            }
+        });
+        jTextFieldAPaterno.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextFieldAPaternoKeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextFieldAPaternoKeyTyped(evt);
             }
         });
         jPanelPerfil.add(jTextFieldAPaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, 210, 30));
@@ -299,6 +325,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextFieldAMaternoActionPerformed(evt);
             }
         });
+        jTextFieldAMaterno.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextFieldAMaternoKeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextFieldAMaternoKeyTyped(evt);
+            }
+        });
         jPanelPerfil.add(jTextFieldAMaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 210, 30));
 
         jTextFieldCurp.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -308,22 +342,35 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextFieldCurpActionPerformed(evt);
             }
         });
-        jPanelPerfil.add(jTextFieldCurp, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, 210, 30));
-
-        jButtonEjecutar.setBackground(new java.awt.Color(232, 201, 232));
-        jButtonEjecutar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButtonEjecutar.setForeground(new java.awt.Color(96, 83, 150));
-        jButtonEjecutar.setText("Consultar");
-        jButtonEjecutar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jButtonEjecutar.setBorderPainted(false);
-        jButtonEjecutar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtonEjecutar.setFocusPainted(false);
-        jButtonEjecutar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonEjecutarActionPerformed(evt);
+        jTextFieldCurp.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextFieldCurpKeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextFieldCurpKeyTyped(evt);
             }
         });
-        jPanelPerfil.add(jButtonEjecutar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 450, 180, 80));
+        jPanelPerfil.add(jTextFieldCurp, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, 210, 30));
+
+        jButtonConsultar.setBackground(new java.awt.Color(232, 201, 232));
+        jButtonConsultar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jButtonConsultar.setForeground(new java.awt.Color(96, 83, 150));
+        jButtonConsultar.setText("Consultar");
+        jButtonConsultar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jButtonConsultar.setBorderPainted(false);
+        jButtonConsultar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jButtonConsultar.setFocusPainted(false);
+        jButtonConsultar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonConsultarActionPerformed(evt);
+            }
+        });
+        jButtonConsultar.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jButtonConsultarKeyPressed(evt);
+            }
+        });
+        jPanelPerfil.add(jButtonConsultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 450, 180, 80));
 
         jSeparator1.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator1.setForeground(new java.awt.Color(232, 201, 232));
@@ -375,6 +422,11 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jButtoncerrar.setContentAreaFilled(false);
         jButtoncerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButtoncerrar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        jButtoncerrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtoncerrarActionPerformed(evt);
+            }
+        });
 
         jButtonInicio.setBackground(new java.awt.Color(255, 255, 255));
         jButtonInicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/casa.png"))); // NOI18N
@@ -675,6 +727,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextFieldNomCompPacActionPerformed(evt);
             }
         });
+        jTextFieldNomCompPac.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextFieldNomCompPacKeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextFieldNomCompPacKeyTyped(evt);
+            }
+        });
         jPanelHistorial.add(jTextFieldNomCompPac, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 250, 20));
 
         jTextFieldFolio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -685,6 +745,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextFieldFolioActionPerformed(evt);
             }
         });
+        jTextFieldFolio.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextFieldFolioKeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextFieldFolioKeyTyped(evt);
+            }
+        });
         jPanelHistorial.add(jTextFieldFolio, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 270, 20));
 
         jTextCurp2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -693,6 +761,14 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jTextCurp2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextCurp2ActionPerformed(evt);
+            }
+        });
+        jTextCurp2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextCurp2KeyPressed(evt);
+            }
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                jTextCurp2KeyTyped(evt);
             }
         });
         jPanelHistorial.add(jTextCurp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 320, 20));
@@ -1594,19 +1670,25 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonregresarActionPerformed
 
-    private void jButtonEjecutarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEjecutarActionPerformed
-        // TODO add your handling code here:
-            //if(busqueda encontrada){
+    private void jButtonConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonConsultarActionPerformed
+        boolean flag;//aqui empleamos el uso de una variable boolean que evalua si la informacion se contiiene en la base de datos
+        flag = false;//si flag = true quiere decir que si existen estos datos, en cambio si la flag = false esto nos indica que no hya registros con esos datos 
+        activa(flag);
+        jTextFieldNomCompPac.setText(jTextFieldNombre.getText() + " " + jTextFieldAPaterno.getText() + " " + jTextFieldAMaterno.getText());
+        jTextCurp2.setText(jTextFieldCurp.getText());
+
+// TODO add your handling code here:
+            /*if(busqueda encontrada){
                     ListaPacientes ir= new ListaPacientes();
                     ir.setVisible(true);
                     ir.setLocationRelativeTo(null);
                     this.dispose();
             //}else if(busqueda no encontrada){
                     JOptionPane.showMessageDialog(this,"      \tPaciente No Econtrado\n"+ "      \t¿Deseas agregarlo?", "Advertencia", JOptionPane.WARNING_MESSAGE);
-            //}
+            }*/
             
             
-    }//GEN-LAST:event_jButtonEjecutarActionPerformed
+    }//GEN-LAST:event_jButtonConsultarActionPerformed
 
     private void jButtonGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGuardarActionPerformed
         // TODO add your handling code here:
@@ -1660,6 +1742,243 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldCorreoDocActionPerformed
 
+    private void jTextFieldNombreKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNombreKeyPressed
+        // TODO add your handling code here:
+        Validaciones.enter(this, evt, jTextFieldAPaterno);
+    }//GEN-LAST:event_jTextFieldNombreKeyPressed
+
+    private void jTextFieldNombreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNombreKeyTyped
+        // TODO add your handling code here:
+         Validaciones.validaAlfabeticos(evt);
+        if (jTextFieldNombre.getText().length() == 60)
+        {
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextFieldNombreKeyTyped
+
+    private void jTextFieldAPaternoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAPaternoKeyPressed
+        // TODO add your handling code here:
+        Validaciones.enter(this, evt, jTextFieldAMaterno);
+    }//GEN-LAST:event_jTextFieldAPaternoKeyPressed
+
+    private void jTextFieldAPaternoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAPaternoKeyTyped
+        // TODO add your handling code here:
+                Validaciones.validaAlfabeticos(evt);
+        if (jTextFieldAPaterno.getText().length() == 60)
+        {
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextFieldAPaternoKeyTyped
+
+    private void jTextFieldAMaternoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAMaternoKeyPressed
+        // TODO add your handling code here:
+        Validaciones.enter(this, evt, jTextFieldCurp);
+    }//GEN-LAST:event_jTextFieldAMaternoKeyPressed
+
+    private void jTextFieldAMaternoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAMaternoKeyTyped
+        // TODO add your handling code here:
+         Validaciones.validaAlfabeticos(evt);
+        if (jTextFieldAMaterno.getText().length() == 60)
+        {
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextFieldAMaternoKeyTyped
+
+    private void jTextFieldCurpKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldCurpKeyPressed
+        // TODO add your handling code here:
+        Validaciones.enter(this, evt, jButtonConsultar);
+    }//GEN-LAST:event_jTextFieldCurpKeyPressed
+
+    private void jTextFieldCurpKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldCurpKeyTyped
+        // TODO add your handling code here:
+         Validaciones.validaAlfanumerico(evt);
+        if (jTextFieldCurp.getText().length() == 18)
+        {
+            evt.consume();
+        }
+    }//GEN-LAST:event_jTextFieldCurpKeyTyped
+
+    private void jButtonConsultarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButtonConsultarKeyPressed
+        
+        if (evt.getKeyChar() == '\n')
+        {
+            //colocar actionperformed del boton o cualquier accion a realizar
+        }
+    }//GEN-LAST:event_jButtonConsultarKeyPressed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+        // TODO add your handling code here:
+        CtrlInterfaz.selecciona(jTextFieldNombre);
+        con = ManipulaDBC.conectaDB();
+        evitarPegar(jTextFieldNombre, jTextFieldAMaterno, jTextFieldAPaterno, jTextFieldCurp,
+                jTextFieldFolio, jTextFieldFecNac, jTextFielTelefono,
+                jTextFieldMunicipio, jTextFieldColonia, jTextFieldCalle, jTextFieldNumero,
+                jTextFieldReligion, jTextFieldTrabajo, jTextFieldEdad, jTextFieldSexo, jTextFieldTipSangre);
+        jButtonInsertImg.setEnabled(false);
+    }//GEN-LAST:event_formWindowOpened
+
+    private void formWindowClosed(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosed
+        ManipulaDBC.desconectaDB(con);
+    }//GEN-LAST:event_formWindowClosed
+
+    private void jButtoncerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtoncerrarActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_jButtoncerrarActionPerformed
+
+    private void jTextFieldNomCompPacKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNomCompPacKeyPressed
+        Validaciones.enter(this, evt, jTextFieldFolio);
+    }//GEN-LAST:event_jTextFieldNomCompPacKeyPressed
+
+    private void jTextFieldNomCompPacKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNomCompPacKeyTyped
+        Validaciones.validaAlfabeticos(evt);
+    }//GEN-LAST:event_jTextFieldNomCompPacKeyTyped
+
+    private void jTextFieldFolioKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldFolioKeyTyped
+        Validaciones.validaEntero(evt);
+    }//GEN-LAST:event_jTextFieldFolioKeyTyped
+
+    private void jTextFieldFolioKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldFolioKeyPressed
+        Validaciones.enter(this, evt, jTextFieldFecNac);
+    }//GEN-LAST:event_jTextFieldFolioKeyPressed
+
+    private void jTextCurp2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextCurp2KeyTyped
+        Validaciones.validaAlfanumerico(evt);
+    }//GEN-LAST:event_jTextCurp2KeyTyped
+
+    private void jTextCurp2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextCurp2KeyPressed
+        Validaciones.enter(this, evt, jTextFieldFecNac);
+    }//GEN-LAST:event_jTextCurp2KeyPressed
+
+    private void jTextFieldFecNacKeyTyped(java.awt.event.KeyEvent evt)                                          
+    {                                              
+        String fecha = jTextFieldFecNac.getText();
+        boolean res = false;
+        res = validaFechaNac(fecha);
+        if (res == true)
+        {
+            System.out.println("La fecha es valida");
+        } else
+        {
+            System.out.println("la fecha no es valida");
+        }
+    }                                         
+
+    private void jTextFieldFecNacKeyPressed(java.awt.event.KeyEvent evt)                                            
+    {                                                
+        Validaciones.enter(this, evt, jTextFielTelefono);
+    }                                           
+
+    private void jTextFielTelefonoKeyTyped(java.awt.event.KeyEvent evt)                                           
+    {                                               
+        int nc = 10;
+        if (jTextFielTelefono.getText().length() >= nc)
+        {
+            evt.consume();
+            //Mensaje.error(this, "solo se admiten 10 caracteres");
+        }
+        Validaciones.validaEntero(evt);
+    }                                          
+
+    private void jButtonminimizarActionPerformed(java.awt.event.ActionEvent evt)                                                 
+    {                                                     
+        this.setExtendedState(ICONIFIED);
+    }                                                
+
+    private void jTextFielTelefonoKeyPressed(java.awt.event.KeyEvent evt)                                             
+    {                                                 
+        Validaciones.enter(this, evt, jTextFieldMunicipio);
+    }                                            
+
+    private void jTextFieldMunicipioKeyTyped(java.awt.event.KeyEvent evt)                                             
+    {                                                 
+        Validaciones.validaAlfabeticos(evt);
+    }                                            
+
+    private void jTextFieldMunicipioKeyPressed(java.awt.event.KeyEvent evt)                                               
+    {                                                   
+        Validaciones.enter(this, evt, jTextFieldColonia);
+    }                                              
+
+    private void jTextFieldColoniaKeyTyped(java.awt.event.KeyEvent evt)                                           
+    {                                               
+        Validaciones.validaAlfanumerico(evt);
+    }                                          
+
+    private void jTextFieldColoniaKeyPressed(java.awt.event.KeyEvent evt)                                             
+    {                                                 
+        Validaciones.enter(this, evt, jTextFieldCalle);
+    }                                            
+
+    private void jTextFieldCalleKeyTyped(java.awt.event.KeyEvent evt)                                         
+    {                                             
+        Validaciones.validaAlfanumerico(evt);
+    }                                        
+
+    private void jTextFieldCalleKeyPressed(java.awt.event.KeyEvent evt)                                           
+    {                                               
+        Validaciones.enter(this, evt, jTextFieldNumero);
+    }                                          
+
+    private void jTextFieldNumeroKeyTyped(java.awt.event.KeyEvent evt)                                          
+    {                                              
+        Validaciones.validaEntero(evt);
+    }                                         
+
+    private void jTextFieldNumeroKeyPressed(java.awt.event.KeyEvent evt)                                            
+    {                                                
+        Validaciones.enter(this, evt, jTextFieldReligion);
+    }                                           
+
+    private void jTextFieldReligionKeyTyped(java.awt.event.KeyEvent evt)                                            
+    {                                                
+        Validaciones.validaAlfabeticos(evt);
+    }                                           
+
+    private void jTextFieldReligionKeyPressed(java.awt.event.KeyEvent evt)                                              
+    {                                                  
+        Validaciones.enter(this, evt, jTextFieldTrabajo);
+    }                                             
+
+    private void jTextFieldTrabajoKeyTyped(java.awt.event.KeyEvent evt)                                           
+    {                                               
+        Validaciones.validaAlfabeticos(evt);
+    }                                          
+
+    private void jTextFieldTrabajoKeyPressed(java.awt.event.KeyEvent evt)                                             
+    {                                                 
+        Validaciones.enter(this, evt, jTextFieldEdad);
+    }                                            
+
+    private void jTextFieldEdadKeyTyped(java.awt.event.KeyEvent evt)                                        
+    {                                            
+        if (jTextFieldEdad.getText().length() >= 2)
+        {
+            evt.consume();
+        }
+        Validaciones.validaEntero(evt);
+    }                                       
+
+    private void jTextFieldEdadKeyPressed(java.awt.event.KeyEvent evt)                                          
+    {                                              
+        Validaciones.enter(this, evt, jTextFieldSexo);
+    }                                         
+
+    private void jTextFieldSexoKeyTyped(java.awt.event.KeyEvent evt)                                        
+    {                                            
+        Validaciones.validaAlfabeticos(evt);
+    }                                       
+
+    private void jTextFieldSexoKeyPressed(java.awt.event.KeyEvent evt)                                          
+    {                                              
+        Validaciones.enter(this, evt, jTextFieldTipSangre);
+    }                                         
+
+    private void jTextFieldTipSangreKeyTyped(java.awt.event.KeyEvent evt)                                             
+    {                                                 
+        Validaciones.validaAlfanumerico(evt);
+    }                                            
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -1697,7 +2016,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonEjecutar;
+    private javax.swing.JButton jButtonConsultar;
     private javax.swing.JButton jButtonEsconder;
     private javax.swing.JButton jButtonGuardar;
     private javax.swing.JButton jButtonInicio;
