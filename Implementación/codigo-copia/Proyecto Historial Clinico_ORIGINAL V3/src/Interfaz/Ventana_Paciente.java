@@ -4,9 +4,19 @@
  * and open the template in the editor.
  */
 package Interfaz;
+import Métodos.ManipulaDBC;
+import cjb.ci.CtrlInterfaz;
+import cjb.ci.Mensaje;
 import cjb.ci.Validaciones;
+import java.awt.Event;
+import java.awt.event.KeyEvent;
 import java.sql.Connection;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import javax.swing.InputMap;
 import javax.swing.JOptionPane;
+import javax.swing.JTextField;
+import javax.swing.KeyStroke;
 /**
  *
  * @author uriel
@@ -1978,6 +1988,61 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         Validaciones.validaAlfanumerico(evt);
     }                                            
     
+    private boolean validaFechaNac(String fecha)
+    {
+        SimpleDateFormat formatoFecha = new SimpleDateFormat("yyyy-MM-dd");
+        formatoFecha.setLenient(false);
+        try
+        {
+            formatoFecha.parse(fecha);
+        } catch (ParseException ex)
+        {
+            return false;
+        }
+        return true;
+    }
+
+    public boolean activa(boolean flag)
+    {
+        if (flag)
+        {
+            System.out.println("datos correctos");
+            CtrlInterfaz.habilita(false, jTextFieldNomCompPac, jTextFieldFolio, jTextCurp2, jTextFieldFecNac, jTextFielTelefono,
+                    jTextFieldFolio, jTextFieldFecNac, jTextFielTelefono,
+                    jTextFieldMunicipio, jTextFieldColonia, jTextFieldCalle, jTextFieldNumero,
+                    jTextFieldReligion, jTextFieldTrabajo, jTextFieldEdad, jTextFieldSexo, jTextFieldTipSangre);
+        } else if (flag == false)
+        {
+            Mensaje.error(this, "No se encontraron registros con estos datos debe agregar un registro");
+            System.out.println("datos no encontrados");
+            CtrlInterfaz.selecciona(jTextFieldFolio);
+            CtrlInterfaz.habilita(true, jTextFieldFolio);
+            CtrlInterfaz.habilita(false, jTextFieldNomCompPac, jTextCurp2, jTextFieldFecNac, jTextFielTelefono,
+                    jTextFieldFecNac, jTextFielTelefono,
+                    jTextFieldMunicipio, jTextFieldColonia, jTextFieldCalle, jTextFieldNumero,
+                    jTextFieldReligion, jTextFieldTrabajo, jTextFieldEdad, jTextFieldSexo, jTextFieldTipSangre);
+        }
+        return flag;
+    }
+    
+    
+    /**
+     * Método para bloquear el pegado de datos en jTextFields
+     *
+     * @param objs Arreglo no definido de objetos para hacer uso de cajas de
+     * texto
+     */
+    public static void evitarPegar(Object... objs)
+    {
+        for (Object obj : objs)
+        {
+            if (obj instanceof JTextField)
+            {
+                InputMap map2 = ((JTextField) obj).getInputMap(JTextField.WHEN_FOCUSED);
+                map2.put(KeyStroke.getKeyStroke(KeyEvent.VK_V, Event.CTRL_MASK), "null");
+            }
+        }
+    }
     
     /**
      * @param args the command line arguments

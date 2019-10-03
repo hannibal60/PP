@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Conexion {
+public class ConexionLog {
     
     private final String base = "gestorclinico";
     private final String user = "root";
