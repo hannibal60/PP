@@ -10,18 +10,18 @@ import java.awt.event.KeyEvent;
 import java.sql.Connection;
 import javax.swing.JOptionPane;
 import modelo.Hash;
-import modelo.Conexion;
+import modelo.ConexionLog;
 import modelo.Usuarios;
 
 public class login extends javax.swing.JFrame {
 
-    Conexion c = null;
+    ConexionLog c = null;
     Connection cn;
 
     public login() {
         initComponents();
         setLocationRelativeTo(null);
-        c = new Conexion();
+        c = new ConexionLog();
         cn = c.getConexion();
         jlerror.setForeground(Color.white);
     }
@@ -49,6 +49,7 @@ public class login extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -275,6 +276,10 @@ public class login extends javax.swing.JFrame {
                     String nuevoPass = Hash.sha1(pass); ///HASH
                     //this.dispose();
                     //Pantallainicio p = new Pantallainicio();
+                    Ventana_Paciente ir= new Ventana_Paciente();
+                    ir.setVisible(true);
+                    ir.setLocationRelativeTo(null);
+                    this.dispose();
                 } else {
                     jlerror.setText("Contraseña incorrecto");
                     jlerror.setForeground(Color.red);
