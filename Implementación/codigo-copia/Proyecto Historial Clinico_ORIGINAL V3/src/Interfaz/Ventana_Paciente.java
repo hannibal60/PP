@@ -43,66 +43,68 @@ public class Ventana_Paciente extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanelGeneral = new javax.swing.JPanel();
-        jPanelPerfil = new javax.swing.JPanel();
-        jLabelFotoPefil = new javax.swing.JLabel();
-        jLabelTitulo1 = new javax.swing.JLabel();
-        jPanelDiseño1 = new javax.swing.JPanel();
-        jPanelDiseño2 = new javax.swing.JPanel();
-        jLabelNombre = new javax.swing.JLabel();
-        jLabelAPaterno = new javax.swing.JLabel();
-        jLabelAMaterno = new javax.swing.JLabel();
-        jLabelCurp = new javax.swing.JLabel();
-        jTextFieldNombre = new javax.swing.JTextField();
-        jTextFieldAPaterno = new javax.swing.JTextField();
-        jTextFieldAMaterno = new javax.swing.JTextField();
-        jTextFieldCurp = new javax.swing.JTextField();
-        jButtonConsultar = new javax.swing.JButton();
+        jPperfil = new javax.swing.JPanel();
+        jLFPefil = new javax.swing.JLabel();
+        jLTitulo1 = new javax.swing.JLabel();
+        jPDiseño1 = new javax.swing.JPanel();
+        jPDiseño2 = new javax.swing.JPanel();
+        JLNomP1 = new javax.swing.JLabel();
+        jLAPaterno = new javax.swing.JLabel();
+        jLAMaterno = new javax.swing.JLabel();
+        jLCurp = new javax.swing.JLabel();
+        JTFNomP1 = new javax.swing.JTextField();
+        jTFAPaterno = new javax.swing.JTextField();
+        jTFAMaterno = new javax.swing.JTextField();
+        jTFCurp = new javax.swing.JTextField();
+        jBConsultar = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
         jSeparator4 = new javax.swing.JSeparator();
-        jPanelEncabezado = new javax.swing.JPanel();
-        jButtonEsconder = new javax.swing.JButton();
-        jPanelDiseño3 = new javax.swing.JPanel();
-        jButtonminimizar = new javax.swing.JButton();
-        jButtoncerrar = new javax.swing.JButton();
-        jButtonInicio = new javax.swing.JButton();
-        jButtonregresar = new javax.swing.JButton();
+        jBGuardar = new javax.swing.JButton();
+        jBModificar = new javax.swing.JButton();
+        jPEncabezado = new javax.swing.JPanel();
+        jBEsconder = new javax.swing.JButton();
+        jPDiseño3 = new javax.swing.JPanel();
+        jBminimizar = new javax.swing.JButton();
+        jBcerrar = new javax.swing.JButton();
+        jBinicio = new javax.swing.JButton();
+        jBregresar = new javax.swing.JButton();
         jScrollPaneHistorial = new javax.swing.JScrollPane();
-        jPanelHistorial = new javax.swing.JPanel();
+        jPHistorial = new javax.swing.JPanel();
         jSeparator25 = new javax.swing.JSeparator();
         jScrollBarHistorial = new javax.swing.JScrollBar();
-        jLabelTitulo2 = new javax.swing.JLabel();
-        jPanelDiseño8 = new javax.swing.JPanel();
-        jPanelDiseño4 = new javax.swing.JPanel();
-        jLabelTitulo3 = new javax.swing.JLabel();
-        jLabelTitulo4 = new javax.swing.JLabel();
-        jPanelDiseño6 = new javax.swing.JPanel();
+        jLTitulo2 = new javax.swing.JLabel();
+        jPDiseño8 = new javax.swing.JPanel();
+        jPDiseño4 = new javax.swing.JPanel();
+        jLTitulo3 = new javax.swing.JLabel();
+        jLTitulo4 = new javax.swing.JLabel();
+        jPDiseño6 = new javax.swing.JPanel();
         jPanelDiseño7 = new javax.swing.JPanel();
-        jLabelNomCompPac = new javax.swing.JLabel();
-        jLabelFolio = new javax.swing.JLabel();
-        jLabelCurp2 = new javax.swing.JLabel();
-        jLabelFecNac = new javax.swing.JLabel();
-        jLabelCorreo = new javax.swing.JLabel();
-        jLabelReligion = new javax.swing.JLabel();
-        jLabelColonia = new javax.swing.JLabel();
-        jLabelMunicipio = new javax.swing.JLabel();
-        jLabelNumero = new javax.swing.JLabel();
-        jLabelCalle = new javax.swing.JLabel();
-        jButtonInsertImg = new javax.swing.JButton();
-        jLabelTitulo5 = new javax.swing.JLabel();
-        jLabelTrabajo = new javax.swing.JLabel();
-        jLabelEdad = new javax.swing.JLabel();
-        jLabelSexo = new javax.swing.JLabel();
+        jLNomCP = new javax.swing.JLabel();
+        jLfolio = new javax.swing.JLabel();
+        jLCurp2 = new javax.swing.JLabel();
+        jLFNac = new javax.swing.JLabel();
+        jLcorreo = new javax.swing.JLabel();
+        jLRel = new javax.swing.JLabel();
+        jLcolonia = new javax.swing.JLabel();
+        jLmunicipio = new javax.swing.JLabel();
+        jLnumero = new javax.swing.JLabel();
+        jLcalle = new javax.swing.JLabel();
+        jBInsImg = new javax.swing.JButton();
+        jLTitulo5 = new javax.swing.JLabel();
+        jLTra = new javax.swing.JLabel();
+        jLedad = new javax.swing.JLabel();
+        jLsexo = new javax.swing.JLabel();
         jSeparator6 = new javax.swing.JSeparator();
         jSeparator7 = new javax.swing.JSeparator();
         jSeparator8 = new javax.swing.JSeparator();
         jSeparator9 = new javax.swing.JSeparator();
-        jTextFieldTelefonoCelularDoc = new javax.swing.JTextField();
-        jTextFieldNomCompPac = new javax.swing.JTextField();
-        jTextFieldFolio = new javax.swing.JTextField();
-        jTextCurp2 = new javax.swing.JTextField();
-        jTextFieldFecNac = new javax.swing.JTextField();
+        jTFTelCel = new javax.swing.JTextField();
+        jTFNomCP = new javax.swing.JTextField();
+        jTFfolio = new javax.swing.JTextField();
+        jTCurp2 = new javax.swing.JTextField();
+        jTFFNac = new javax.swing.JTextField();
         jTextField10 = new javax.swing.JTextField();
         jSeparator10 = new javax.swing.JSeparator();
         jSeparator11 = new javax.swing.JSeparator();
@@ -112,100 +114,97 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jSeparator15 = new javax.swing.JSeparator();
         jSeparator16 = new javax.swing.JSeparator();
         jSeparator17 = new javax.swing.JSeparator();
-        jSeparator18 = new javax.swing.JSeparator();
-        jTextFielTelefono = new javax.swing.JTextField();
-        jTextFieldMunicipio = new javax.swing.JTextField();
-        jTextFieldColonia = new javax.swing.JTextField();
-        jTextFieldCalle = new javax.swing.JTextField();
-        jTextFieldNumero = new javax.swing.JTextField();
-        jTextFieldReligion = new javax.swing.JTextField();
-        jTextFieldTrabajo = new javax.swing.JTextField();
+        jTFTelefono = new javax.swing.JTextField();
+        jTFmunicipio = new javax.swing.JTextField();
+        jTFcolonia = new javax.swing.JTextField();
+        jTFcalle = new javax.swing.JTextField();
+        jTFnumero = new javax.swing.JTextField();
+        jTFRel = new javax.swing.JTextField();
+        jTFTra = new javax.swing.JTextField();
         jTextFieldEdad = new javax.swing.JTextField();
-        jTextFieldSexo = new javax.swing.JTextField();
-        jPanelDiseño5 = new javax.swing.JPanel();
-        jLabelTitulo6 = new javax.swing.JLabel();
-        jPanelDiseño9 = new javax.swing.JPanel();
+        jPDiseño5 = new javax.swing.JPanel();
+        jLTitulo6 = new javax.swing.JLabel();
+        jPDiseño9 = new javax.swing.JPanel();
         jPanelDiseño10 = new javax.swing.JPanel();
-        jComboBoxDoctores = new javax.swing.JComboBox<>();
-        jLabelTipSangre = new javax.swing.JLabel();
-        jLabelCedulaProfesional = new javax.swing.JLabel();
-        jLabelDireccionDoc = new javax.swing.JLabel();
-        jLabelTitulo8 = new javax.swing.JLabel();
-        jLabelEdadDoc = new javax.swing.JLabel();
-        jLabelSexoDoc = new javax.swing.JLabel();
-        jSeparator19 = new javax.swing.JSeparator();
+        jLTipSan = new javax.swing.JLabel();
+        jLCProD = new javax.swing.JLabel();
+        jLDirD = new javax.swing.JLabel();
+        jLTitulo8 = new javax.swing.JLabel();
+        jLEdadD = new javax.swing.JLabel();
+        jLSexoD = new javax.swing.JLabel();
         jSeparator21 = new javax.swing.JSeparator();
         jSeparator22 = new javax.swing.JSeparator();
         jSeparator23 = new javax.swing.JSeparator();
         jSeparator24 = new javax.swing.JSeparator();
-        jTextFieldTipSangre = new javax.swing.JTextField();
         jPanelDiseño11 = new javax.swing.JPanel();
-        jLabelTitulo7 = new javax.swing.JLabel();
-        jPanelDiseño12 = new javax.swing.JPanel();
+        jLTitulo7 = new javax.swing.JLabel();
+        jPDiseño12 = new javax.swing.JPanel();
         jPanelDiseño13 = new javax.swing.JPanel();
-        jLabelTitulo12 = new javax.swing.JLabel();
-        jLabelTelefonoCelularDoc = new javax.swing.JLabel();
-        jLabelTitulo10 = new javax.swing.JLabel();
-        jLabelTitulo9 = new javax.swing.JLabel();
-        jLabelTitulo11 = new javax.swing.JLabel();
+        jLTitulo12 = new javax.swing.JLabel();
+        jLTelCel = new javax.swing.JLabel();
+        jLTitulo10 = new javax.swing.JLabel();
+        jLTitulo9 = new javax.swing.JLabel();
+        jLTitulo11 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel18 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
-        jTextAreaAntPer = new javax.swing.JTextArea();
+        jTAAntPer = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
         jPanel19 = new javax.swing.JPanel();
         jScrollPane7 = new javax.swing.JScrollPane();
-        jTextAreaAntFam = new javax.swing.JTextArea();
+        jTAAntFam = new javax.swing.JTextArea();
         jScrollPane4 = new javax.swing.JScrollPane();
         jPanel20 = new javax.swing.JPanel();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTextAreaAntPat = new javax.swing.JTextArea();
+        jTAAntPat = new javax.swing.JTextArea();
         jScrollPane5 = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
         jScrollPane9 = new javax.swing.JScrollPane();
-        jTextAreaAntQuir = new javax.swing.JTextArea();
-        jButtonModificar = new javax.swing.JButton();
-        jButtonGuardar = new javax.swing.JButton();
-        jTextFieldCedulaProfesional = new javax.swing.JTextField();
-        jTextFieldDireccionDoc = new javax.swing.JTextField();
-        jTextFieldEdadDoc = new javax.swing.JTextField();
-        jTextFieldSexoDoc = new javax.swing.JTextField();
-        jLabelTelefono1 = new javax.swing.JLabel();
-        jTextFielCorreo = new javax.swing.JTextField();
+        jTAAntQuir = new javax.swing.JTextArea();
+        jTFCProD = new javax.swing.JTextField();
+        jTFDirD = new javax.swing.JTextField();
+        jTFEdadD = new javax.swing.JTextField();
+        jLTelefono = new javax.swing.JLabel();
+        jTFcorreo = new javax.swing.JTextField();
         jSeparator26 = new javax.swing.JSeparator();
-        jLabelNSS = new javax.swing.JLabel();
-        jLabelRFC = new javax.swing.JLabel();
+        jLNSS = new javax.swing.JLabel();
+        jLRFC = new javax.swing.JLabel();
         jSeparator27 = new javax.swing.JSeparator();
         jSeparator28 = new javax.swing.JSeparator();
-        jTextFielNSS = new javax.swing.JTextField();
-        jTextFielRFC = new javax.swing.JTextField();
-        jLabelCpostal = new javax.swing.JLabel();
-        jTextFieldNumero1 = new javax.swing.JTextField();
+        jTFNSS = new javax.swing.JTextField();
+        jTFRFC = new javax.swing.JTextField();
+        jLCpostal = new javax.swing.JLabel();
+        jTFCpostal = new javax.swing.JTextField();
         jSeparator29 = new javax.swing.JSeparator();
-        jLabelNacionalidad = new javax.swing.JLabel();
-        jLabelTipCedulaProfesionalPaci = new javax.swing.JLabel();
-        jTextFieldCedulaProfesionalPaci = new javax.swing.JTextField();
-        jTextFieldNacionalidad = new javax.swing.JTextField();
+        jLNac = new javax.swing.JLabel();
+        jLCProP = new javax.swing.JLabel();
+        jTFCProP = new javax.swing.JTextField();
+        jTFNac = new javax.swing.JTextField();
         jSeparator30 = new javax.swing.JSeparator();
         jSeparator31 = new javax.swing.JSeparator();
-        jTextFieldTelefonoDocConsultorio = new javax.swing.JTextField();
-        jLabelTelefonoDocConsultorio = new javax.swing.JLabel();
+        jTFTelCon = new javax.swing.JTextField();
+        jLTelCon = new javax.swing.JLabel();
         jSeparator32 = new javax.swing.JSeparator();
-        jLabelRFCDoc = new javax.swing.JLabel();
+        jLRFCD = new javax.swing.JLabel();
         jSeparator33 = new javax.swing.JSeparator();
-        jTextFieldRFCDoc = new javax.swing.JTextField();
-        jLabelNacionalidadDoc = new javax.swing.JLabel();
+        jTFRFCD = new javax.swing.JTextField();
+        jLNacD = new javax.swing.JLabel();
         jSeparator34 = new javax.swing.JSeparator();
-        jTextFieldNacionalidadDoc = new javax.swing.JTextField();
-        jLabelCurpDoc = new javax.swing.JLabel();
+        jTFNacD = new javax.swing.JTextField();
+        jLCurpD = new javax.swing.JLabel();
         jSeparator35 = new javax.swing.JSeparator();
-        jTextFieldCurpDoc = new javax.swing.JTextField();
-        jLabelFecahaAtencion = new javax.swing.JLabel();
-        jSeparator36 = new javax.swing.JSeparator();
-        jTextFieldFecahaAtencion = new javax.swing.JTextField();
-        jLabelCorreoDoc = new javax.swing.JLabel();
+        jTFCurpD = new javax.swing.JTextField();
+        jLlCorreoD = new javax.swing.JLabel();
         jSeparator37 = new javax.swing.JSeparator();
-        jTextFieldCorreoDoc = new javax.swing.JTextField();
+        jTFCorreoD = new javax.swing.JTextField();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTDoctores = new javax.swing.JTable();
+        jLDr = new javax.swing.JLabel();
+        jSeparator38 = new javax.swing.JSeparator();
+        jTFDr = new javax.swing.JTextField();
+        jCBTipSan = new javax.swing.JComboBox<>();
+        jCBsexo = new javax.swing.JComboBox<>();
+        jTFSexoD = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -222,289 +221,307 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jPanelGeneral.setBackground(new java.awt.Color(255, 255, 255));
         jPanelGeneral.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanelPerfil.setBackground(new java.awt.Color(255, 255, 255));
-        jPanelPerfil.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(232, 201, 232)));
-        jPanelPerfil.setPreferredSize(new java.awt.Dimension(263, 720));
-        jPanelPerfil.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPperfil.setBackground(new java.awt.Color(255, 255, 255));
+        jPperfil.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(232, 201, 232)));
+        jPperfil.setPreferredSize(new java.awt.Dimension(263, 720));
+        jPperfil.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabelFotoPefil.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono cuenta-redonda-con-usuario-dentro.png"))); // NOI18N
-        jLabelFotoPefil.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanelPerfil.add(jLabelFotoPefil, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, 130, 160));
+        jLFPefil.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Icono cuenta-redonda-con-usuario-dentro.png"))); // NOI18N
+        jLFPefil.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPperfil.add(jLFPefil, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, 130, 160));
 
-        jLabelTitulo1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabelTitulo1.setForeground(new java.awt.Color(181, 77, 180));
-        jLabelTitulo1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo1.setText("PERFIL ");
-        jPanelPerfil.add(jLabelTitulo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 280, 40));
+        jLTitulo1.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLTitulo1.setForeground(new java.awt.Color(181, 77, 180));
+        jLTitulo1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLTitulo1.setText("PERFIL ");
+        jPperfil.add(jLTitulo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 280, 40));
 
-        jPanelDiseño1.setBackground(new java.awt.Color(232, 201, 232));
+        jPDiseño1.setBackground(new java.awt.Color(232, 201, 232));
 
-        jPanelDiseño2.setBackground(new java.awt.Color(96, 83, 150));
+        jPDiseño2.setBackground(new java.awt.Color(96, 83, 150));
 
-        javax.swing.GroupLayout jPanelDiseño2Layout = new javax.swing.GroupLayout(jPanelDiseño2);
-        jPanelDiseño2.setLayout(jPanelDiseño2Layout);
-        jPanelDiseño2Layout.setHorizontalGroup(
-            jPanelDiseño2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño2Layout = new javax.swing.GroupLayout(jPDiseño2);
+        jPDiseño2.setLayout(jPDiseño2Layout);
+        jPDiseño2Layout.setHorizontalGroup(
+            jPDiseño2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 127, Short.MAX_VALUE)
         );
-        jPanelDiseño2Layout.setVerticalGroup(
-            jPanelDiseño2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño2Layout.setVerticalGroup(
+            jPDiseño2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 56, Short.MAX_VALUE)
         );
 
-        javax.swing.GroupLayout jPanelDiseño1Layout = new javax.swing.GroupLayout(jPanelDiseño1);
-        jPanelDiseño1.setLayout(jPanelDiseño1Layout);
-        jPanelDiseño1Layout.setHorizontalGroup(
-            jPanelDiseño1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelDiseño1Layout.createSequentialGroup()
-                .addComponent(jPanelDiseño2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        javax.swing.GroupLayout jPDiseño1Layout = new javax.swing.GroupLayout(jPDiseño1);
+        jPDiseño1.setLayout(jPDiseño1Layout);
+        jPDiseño1Layout.setHorizontalGroup(
+            jPDiseño1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPDiseño1Layout.createSequentialGroup()
+                .addComponent(jPDiseño2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
-        jPanelDiseño1Layout.setVerticalGroup(
-            jPanelDiseño1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelDiseño1Layout.createSequentialGroup()
-                .addComponent(jPanelDiseño2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        jPDiseño1Layout.setVerticalGroup(
+            jPDiseño1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPDiseño1Layout.createSequentialGroup()
+                .addComponent(jPDiseño2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 84, Short.MAX_VALUE))
         );
 
-        jPanelPerfil.add(jPanelDiseño1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, 40, 140));
+        jPperfil.add(jPDiseño1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, 1, 40, 140));
 
-        jLabelNombre.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelNombre.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabelNombre.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelNombre.setText("Nombre(s):");
-        jPanelPerfil.add(jLabelNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 90, 30));
+        JLNomP1.setBackground(new java.awt.Color(255, 255, 255));
+        JLNomP1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        JLNomP1.setForeground(new java.awt.Color(96, 83, 150));
+        JLNomP1.setText("Nombre(s):");
+        jPperfil.add(JLNomP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 90, 30));
 
-        jLabelAPaterno.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelAPaterno.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabelAPaterno.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelAPaterno.setText("A. Paterno:");
-        jPanelPerfil.add(jLabelAPaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 90, 30));
+        jLAPaterno.setBackground(new java.awt.Color(255, 255, 255));
+        jLAPaterno.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLAPaterno.setForeground(new java.awt.Color(96, 83, 150));
+        jLAPaterno.setText("A. Paterno:");
+        jPperfil.add(jLAPaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 90, 30));
 
-        jLabelAMaterno.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelAMaterno.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabelAMaterno.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelAMaterno.setText("A. Materno:");
-        jPanelPerfil.add(jLabelAMaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 90, 30));
+        jLAMaterno.setBackground(new java.awt.Color(255, 255, 255));
+        jLAMaterno.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLAMaterno.setForeground(new java.awt.Color(96, 83, 150));
+        jLAMaterno.setText("A. Materno:");
+        jPperfil.add(jLAMaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 90, 30));
 
-        jLabelCurp.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCurp.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabelCurp.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCurp.setText("CURP:");
-        jPanelPerfil.add(jLabelCurp, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 90, 30));
+        jLCurp.setBackground(new java.awt.Color(255, 255, 255));
+        jLCurp.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLCurp.setForeground(new java.awt.Color(96, 83, 150));
+        jLCurp.setText("CURP:");
+        jPperfil.add(jLCurp, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 80, 30));
 
-        jTextFieldNombre.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldNombre.setBorder(null);
-        jTextFieldNombre.addActionListener(new java.awt.event.ActionListener() {
+        JTFNomP1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        JTFNomP1.setBorder(null);
+        JTFNomP1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldNombreActionPerformed(evt);
+                JTFNomP1ActionPerformed(evt);
             }
         });
-        jTextFieldNombre.addKeyListener(new java.awt.event.KeyAdapter() {
+        JTFNomP1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextFieldNombreKeyPressed(evt);
+                JTFNomP1KeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextFieldNombreKeyTyped(evt);
+                JTFNomP1KeyTyped(evt);
             }
         });
-        jPanelPerfil.add(jTextFieldNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 210, 30));
+        jPperfil.add(JTFNomP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 250, 210, 30));
 
-        jTextFieldAPaterno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldAPaterno.setBorder(null);
-        jTextFieldAPaterno.addActionListener(new java.awt.event.ActionListener() {
+        jTFAPaterno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFAPaterno.setBorder(null);
+        jTFAPaterno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldAPaternoActionPerformed(evt);
+                jTFAPaternoActionPerformed(evt);
             }
         });
-        jTextFieldAPaterno.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTFAPaterno.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextFieldAPaternoKeyPressed(evt);
+                jTFAPaternoKeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextFieldAPaternoKeyTyped(evt);
+                jTFAPaternoKeyTyped(evt);
             }
         });
-        jPanelPerfil.add(jTextFieldAPaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, 210, 30));
+        jPperfil.add(jTFAPaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 290, 210, 30));
 
-        jTextFieldAMaterno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldAMaterno.setBorder(null);
-        jTextFieldAMaterno.addActionListener(new java.awt.event.ActionListener() {
+        jTFAMaterno.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFAMaterno.setBorder(null);
+        jTFAMaterno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldAMaternoActionPerformed(evt);
+                jTFAMaternoActionPerformed(evt);
             }
         });
-        jTextFieldAMaterno.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTFAMaterno.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextFieldAMaternoKeyPressed(evt);
+                jTFAMaternoKeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextFieldAMaternoKeyTyped(evt);
+                jTFAMaternoKeyTyped(evt);
             }
         });
-        jPanelPerfil.add(jTextFieldAMaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 210, 30));
+        jPperfil.add(jTFAMaterno, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 330, 210, 30));
 
-        jTextFieldCurp.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldCurp.setBorder(null);
-        jTextFieldCurp.addActionListener(new java.awt.event.ActionListener() {
+        jTFCurp.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFCurp.setBorder(null);
+        jTFCurp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldCurpActionPerformed(evt);
+                jTFCurpActionPerformed(evt);
             }
         });
-        jTextFieldCurp.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTFCurp.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextFieldCurpKeyPressed(evt);
+                jTFCurpKeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextFieldCurpKeyTyped(evt);
+                jTFCurpKeyTyped(evt);
             }
         });
-        jPanelPerfil.add(jTextFieldCurp, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, 210, 30));
+        jPperfil.add(jTFCurp, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, 210, 30));
 
-        jButtonConsultar.setBackground(new java.awt.Color(232, 201, 232));
-        jButtonConsultar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButtonConsultar.setForeground(new java.awt.Color(96, 83, 150));
-        jButtonConsultar.setText("Consultar");
-        jButtonConsultar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jButtonConsultar.setBorderPainted(false);
-        jButtonConsultar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtonConsultar.setFocusPainted(false);
-        jButtonConsultar.addActionListener(new java.awt.event.ActionListener() {
+        jBConsultar.setBackground(new java.awt.Color(232, 201, 232));
+        jBConsultar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jBConsultar.setForeground(new java.awt.Color(96, 83, 150));
+        jBConsultar.setText("Consultar");
+        jBConsultar.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jBConsultar.setBorderPainted(false);
+        jBConsultar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jBConsultar.setFocusPainted(false);
+        jBConsultar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonConsultarActionPerformed(evt);
+                jBConsultarActionPerformed(evt);
             }
         });
-        jButtonConsultar.addKeyListener(new java.awt.event.KeyAdapter() {
+        jBConsultar.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jButtonConsultarKeyPressed(evt);
+                jBConsultarKeyPressed(evt);
             }
         });
-        jPanelPerfil.add(jButtonConsultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 450, 180, 80));
+        jPperfil.add(jBConsultar, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 470, 190, 70));
 
         jSeparator1.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator1.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelPerfil.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 210, 10));
+        jPperfil.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 280, 210, 10));
 
         jSeparator2.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator2.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelPerfil.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 210, 10));
+        jPperfil.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 210, 10));
 
         jSeparator3.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator3.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelPerfil.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 210, 10));
+        jPperfil.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 210, 10));
 
         jSeparator4.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator4.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelPerfil.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, 210, -1));
+        jPperfil.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, 210, -1));
 
-        jPanelGeneral.add(jPanelPerfil, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 320, 730));
+        jBGuardar.setBackground(new java.awt.Color(232, 201, 232));
+        jBGuardar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jBGuardar.setForeground(new java.awt.Color(96, 83, 150));
+        jBGuardar.setText("Guardar");
+        jBGuardar.setBorder(new javax.swing.border.MatteBorder(null));
+        jBGuardar.setBorderPainted(false);
+        jBGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jPperfil.add(jBGuardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 630, 150, 30));
 
-        jPanelEncabezado.setBackground(new java.awt.Color(255, 255, 255));
-        jPanelEncabezado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(232, 201, 232)));
-        jPanelEncabezado.setForeground(new java.awt.Color(232, 201, 232));
+        jBModificar.setBackground(new java.awt.Color(232, 201, 232));
+        jBModificar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jBModificar.setForeground(new java.awt.Color(96, 83, 150));
+        jBModificar.setText("Modificar");
+        jBModificar.setBorder(new javax.swing.border.MatteBorder(null));
+        jBModificar.setBorderPainted(false);
+        jBModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jPperfil.add(jBModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 570, 150, 30));
 
-        jButtonEsconder.setBackground(new java.awt.Color(255, 255, 255));
-        jButtonEsconder.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/boton-de-menu-de-tres-lineas-horizontales.png"))); // NOI18N
-        jButtonEsconder.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jButtonEsconder.setBorderPainted(false);
-        jButtonEsconder.setFocusCycleRoot(true);
-        jButtonEsconder.setFocusPainted(false);
-        jButtonEsconder.addActionListener(new java.awt.event.ActionListener() {
+        jPanelGeneral.add(jPperfil, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 320, 730));
+
+        jPEncabezado.setBackground(new java.awt.Color(255, 255, 255));
+        jPEncabezado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(232, 201, 232)));
+        jPEncabezado.setForeground(new java.awt.Color(232, 201, 232));
+
+        jBEsconder.setBackground(new java.awt.Color(255, 255, 255));
+        jBEsconder.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/boton-de-menu-de-tres-lineas-horizontales.png"))); // NOI18N
+        jBEsconder.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jBEsconder.setBorderPainted(false);
+        jBEsconder.setFocusCycleRoot(true);
+        jBEsconder.setFocusPainted(false);
+        jBEsconder.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonEsconderActionPerformed(evt);
+                jBEsconderActionPerformed(evt);
             }
         });
 
-        jPanelDiseño3.setBackground(new java.awt.Color(96, 83, 150));
+        jPDiseño3.setBackground(new java.awt.Color(96, 83, 150));
 
-        jButtonminimizar.setBackground(new java.awt.Color(255, 255, 255));
-        jButtonminimizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/minimizar.png"))); // NOI18N
-        jButtonminimizar.setBorderPainted(false);
-        jButtonminimizar.setContentAreaFilled(false);
-        jButtonminimizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtonminimizar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        jBminimizar.setBackground(new java.awt.Color(255, 255, 255));
+        jBminimizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/minimizar.png"))); // NOI18N
+        jBminimizar.setBorderPainted(false);
+        jBminimizar.setContentAreaFilled(false);
+        jBminimizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jBminimizar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
 
-        jButtoncerrar.setBackground(new java.awt.Color(255, 255, 255));
-        jButtoncerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/salir.png"))); // NOI18N
-        jButtoncerrar.setBorder(null);
-        jButtoncerrar.setBorderPainted(false);
-        jButtoncerrar.setContentAreaFilled(false);
-        jButtoncerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtoncerrar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
-        jButtoncerrar.addActionListener(new java.awt.event.ActionListener() {
+        jBcerrar.setBackground(new java.awt.Color(255, 255, 255));
+        jBcerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/salir.png"))); // NOI18N
+        jBcerrar.setBorder(null);
+        jBcerrar.setBorderPainted(false);
+        jBcerrar.setContentAreaFilled(false);
+        jBcerrar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jBcerrar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        jBcerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtoncerrarActionPerformed(evt);
+                jBcerrarActionPerformed(evt);
             }
         });
 
-        jButtonInicio.setBackground(new java.awt.Color(255, 255, 255));
-        jButtonInicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/casa.png"))); // NOI18N
-        jButtonInicio.setBorderPainted(false);
-        jButtonInicio.setContentAreaFilled(false);
-        jButtonInicio.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtonInicio.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
-        jButtonInicio.addActionListener(new java.awt.event.ActionListener() {
+        jBinicio.setBackground(new java.awt.Color(255, 255, 255));
+        jBinicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/casa.png"))); // NOI18N
+        jBinicio.setBorderPainted(false);
+        jBinicio.setContentAreaFilled(false);
+        jBinicio.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jBinicio.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        jBinicio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonInicioActionPerformed(evt);
+                jBinicioActionPerformed(evt);
             }
         });
 
-        jButtonregresar.setBackground(new java.awt.Color(255, 255, 255));
-        jButtonregresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/regresar.png"))); // NOI18N
-        jButtonregresar.setBorderPainted(false);
-        jButtonregresar.setContentAreaFilled(false);
-        jButtonregresar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtonregresar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
-        jButtonregresar.addActionListener(new java.awt.event.ActionListener() {
+        jBregresar.setBackground(new java.awt.Color(255, 255, 255));
+        jBregresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/regresar.png"))); // NOI18N
+        jBregresar.setBorderPainted(false);
+        jBregresar.setContentAreaFilled(false);
+        jBregresar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jBregresar.setDebugGraphicsOptions(javax.swing.DebugGraphics.NONE_OPTION);
+        jBregresar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonregresarActionPerformed(evt);
+                jBregresarActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout jPanelDiseño3Layout = new javax.swing.GroupLayout(jPanelDiseño3);
-        jPanelDiseño3.setLayout(jPanelDiseño3Layout);
-        jPanelDiseño3Layout.setHorizontalGroup(
-            jPanelDiseño3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelDiseño3Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPDiseño3Layout = new javax.swing.GroupLayout(jPDiseño3);
+        jPDiseño3.setLayout(jPDiseño3Layout);
+        jPDiseño3Layout.setHorizontalGroup(
+            jPDiseño3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPDiseño3Layout.createSequentialGroup()
                 .addContainerGap(215, Short.MAX_VALUE)
-                .addComponent(jButtonInicio, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBinicio, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButtonregresar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBregresar, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtonminimizar, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBminimizar, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButtoncerrar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBcerrar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(16, 16, 16))
         );
-        jPanelDiseño3Layout.setVerticalGroup(
-            jPanelDiseño3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelDiseño3Layout.createSequentialGroup()
+        jPDiseño3Layout.setVerticalGroup(
+            jPDiseño3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPDiseño3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanelDiseño3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jButtonminimizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonregresar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtonInicio, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButtoncerrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPDiseño3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(jBminimizar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBregresar, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBinicio, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jBcerrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(14, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout jPanelEncabezadoLayout = new javax.swing.GroupLayout(jPanelEncabezado);
-        jPanelEncabezado.setLayout(jPanelEncabezadoLayout);
-        jPanelEncabezadoLayout.setHorizontalGroup(
-            jPanelEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanelEncabezadoLayout.createSequentialGroup()
-                .addComponent(jButtonEsconder, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+        javax.swing.GroupLayout jPEncabezadoLayout = new javax.swing.GroupLayout(jPEncabezado);
+        jPEncabezado.setLayout(jPEncabezadoLayout);
+        jPEncabezadoLayout.setHorizontalGroup(
+            jPEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPEncabezadoLayout.createSequentialGroup()
+                .addComponent(jBEsconder, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 853, Short.MAX_VALUE)
-                .addComponent(jPanelDiseño3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPDiseño3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
-        jPanelEncabezadoLayout.setVerticalGroup(
-            jPanelEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanelDiseño3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(jButtonEsconder, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
+        jPEncabezadoLayout.setVerticalGroup(
+            jPEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPDiseño3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jBEsconder, javax.swing.GroupLayout.DEFAULT_SIZE, 58, Short.MAX_VALUE)
         );
 
-        jPanelGeneral.add(jPanelEncabezado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1310, 60));
+        jPanelGeneral.add(jPEncabezado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1310, 60));
 
         jScrollPaneHistorial.setBackground(new java.awt.Color(255, 255, 255));
         jScrollPaneHistorial.setBorder(null);
@@ -512,83 +529,83 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jScrollPaneHistorial.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPaneHistorial.setWheelScrollingEnabled(false);
 
-        jPanelHistorial.setBackground(new java.awt.Color(255, 255, 255));
-        jPanelHistorial.setPreferredSize(new java.awt.Dimension(988, 1850));
-        jPanelHistorial.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPHistorial.setBackground(new java.awt.Color(255, 255, 255));
+        jPHistorial.setPreferredSize(new java.awt.Dimension(988, 1850));
+        jPHistorial.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jSeparator25.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator25.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 310, 10));
+        jPHistorial.add(jSeparator25, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 310, 10));
 
         jScrollBarHistorial.setBackground(new java.awt.Color(255, 255, 255));
         jScrollBarHistorial.setMaximum(300);
-        jPanelHistorial.add(jScrollBarHistorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 0, -1, 1740));
+        jPHistorial.add(jScrollBarHistorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 0, -1, 1950));
 
-        jLabelTitulo2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabelTitulo2.setForeground(new java.awt.Color(181, 77, 180));
-        jLabelTitulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo2.setText("HISTORIAL CLINICO");
-        jPanelHistorial.add(jLabelTitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 970, 50));
+        jLTitulo2.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLTitulo2.setForeground(new java.awt.Color(181, 77, 180));
+        jLTitulo2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLTitulo2.setText("HISTORIAL CLINICO");
+        jPHistorial.add(jLTitulo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 970, 50));
 
-        jPanelDiseño8.setBackground(new java.awt.Color(232, 201, 232));
+        jPDiseño8.setBackground(new java.awt.Color(232, 201, 232));
 
-        javax.swing.GroupLayout jPanelDiseño8Layout = new javax.swing.GroupLayout(jPanelDiseño8);
-        jPanelDiseño8.setLayout(jPanelDiseño8Layout);
-        jPanelDiseño8Layout.setHorizontalGroup(
-            jPanelDiseño8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño8Layout = new javax.swing.GroupLayout(jPDiseño8);
+        jPDiseño8.setLayout(jPDiseño8Layout);
+        jPDiseño8Layout.setHorizontalGroup(
+            jPDiseño8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 810, Short.MAX_VALUE)
         );
-        jPanelDiseño8Layout.setVerticalGroup(
-            jPanelDiseño8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño8Layout.setVerticalGroup(
+            jPDiseño8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 680, 810, 10));
+        jPHistorial.add(jPDiseño8, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 680, 810, 10));
 
-        jPanelDiseño4.setBackground(new java.awt.Color(232, 201, 232));
+        jPDiseño4.setBackground(new java.awt.Color(232, 201, 232));
 
-        javax.swing.GroupLayout jPanelDiseño4Layout = new javax.swing.GroupLayout(jPanelDiseño4);
-        jPanelDiseño4.setLayout(jPanelDiseño4Layout);
-        jPanelDiseño4Layout.setHorizontalGroup(
-            jPanelDiseño4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño4Layout = new javax.swing.GroupLayout(jPDiseño4);
+        jPDiseño4.setLayout(jPDiseño4Layout);
+        jPDiseño4Layout.setHorizontalGroup(
+            jPDiseño4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 430, Short.MAX_VALUE)
         );
-        jPanelDiseño4Layout.setVerticalGroup(
-            jPanelDiseño4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño4Layout.setVerticalGroup(
+            jPDiseño4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 430, 10));
+        jPHistorial.add(jPDiseño4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 430, 10));
 
-        jLabelTitulo3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabelTitulo3.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo3.setText("Datos del Paciente");
-        jPanelHistorial.add(jLabelTitulo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 160, 20));
+        jLTitulo3.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLTitulo3.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo3.setText("Datos del Paciente");
+        jPHistorial.add(jLTitulo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 160, 20));
 
-        jLabelTitulo4.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo4.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo4.setText("Dirección");
-        jLabelTitulo4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanelHistorial.add(jLabelTitulo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, 120, 30));
+        jLTitulo4.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo4.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLTitulo4.setText("Dirección");
+        jLTitulo4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPHistorial.add(jLTitulo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 430, 120, 30));
 
-        jPanelDiseño6.setBackground(new java.awt.Color(232, 201, 232));
+        jPDiseño6.setBackground(new java.awt.Color(232, 201, 232));
 
-        javax.swing.GroupLayout jPanelDiseño6Layout = new javax.swing.GroupLayout(jPanelDiseño6);
-        jPanelDiseño6.setLayout(jPanelDiseño6Layout);
-        jPanelDiseño6Layout.setHorizontalGroup(
-            jPanelDiseño6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño6Layout = new javax.swing.GroupLayout(jPDiseño6);
+        jPDiseño6.setLayout(jPDiseño6Layout);
+        jPDiseño6Layout.setHorizontalGroup(
+            jPDiseño6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 160, Short.MAX_VALUE)
         );
-        jPanelDiseño6Layout.setVerticalGroup(
-            jPanelDiseño6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño6Layout.setVerticalGroup(
+            jPDiseño6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 160, 10));
+        jPHistorial.add(jPDiseño6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 100, 160, 10));
 
         jPanelDiseño7.setBackground(new java.awt.Color(232, 201, 232));
 
@@ -603,195 +620,195 @@ public class Ventana_Paciente extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, -1, -1));
+        jPHistorial.add(jPanelDiseño7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, -1, -1));
 
-        jLabelNomCompPac.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelNomCompPac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelNomCompPac.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelNomCompPac.setText("Nombre Completo:");
-        jPanelHistorial.add(jLabelNomCompPac, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 120, 30));
+        jLNomCP.setBackground(new java.awt.Color(255, 255, 255));
+        jLNomCP.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLNomCP.setForeground(new java.awt.Color(96, 83, 150));
+        jLNomCP.setText("Nombre Completo:");
+        jPHistorial.add(jLNomCP, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, 110, 30));
 
-        jLabelFolio.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelFolio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelFolio.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelFolio.setText("Folio Asignado:");
-        jPanelHistorial.add(jLabelFolio, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 90, 30));
+        jLfolio.setBackground(new java.awt.Color(255, 255, 255));
+        jLfolio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLfolio.setForeground(new java.awt.Color(96, 83, 150));
+        jLfolio.setText("Folio Asignado:");
+        jPHistorial.add(jLfolio, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 90, 30));
 
-        jLabelCurp2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCurp2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCurp2.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCurp2.setText("CURP:");
-        jPanelHistorial.add(jLabelCurp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 40, 30));
+        jLCurp2.setBackground(new java.awt.Color(255, 255, 255));
+        jLCurp2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLCurp2.setForeground(new java.awt.Color(96, 83, 150));
+        jLCurp2.setText("CURP:");
+        jPHistorial.add(jLCurp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 210, 40, 30));
 
-        jLabelFecNac.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelFecNac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelFecNac.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelFecNac.setText("Fecha de Nacimiento:");
-        jPanelHistorial.add(jLabelFecNac, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 120, 30));
+        jLFNac.setBackground(new java.awt.Color(255, 255, 255));
+        jLFNac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLFNac.setForeground(new java.awt.Color(96, 83, 150));
+        jLFNac.setText("Fecha de Nacimiento:");
+        jPHistorial.add(jLFNac, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 120, 30));
 
-        jLabelCorreo.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCorreo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCorreo.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCorreo.setText("Correo:");
-        jPanelHistorial.add(jLabelCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, 50, 30));
+        jLcorreo.setBackground(new java.awt.Color(255, 255, 255));
+        jLcorreo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLcorreo.setForeground(new java.awt.Color(96, 83, 150));
+        jLcorreo.setText("Correo:");
+        jPHistorial.add(jLcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 360, 50, 30));
 
-        jLabelReligion.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelReligion.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelReligion.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelReligion.setText("Religión:");
-        jPanelHistorial.add(jLabelReligion, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 510, 50, 30));
+        jLRel.setBackground(new java.awt.Color(255, 255, 255));
+        jLRel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLRel.setForeground(new java.awt.Color(96, 83, 150));
+        jLRel.setText("Religión:");
+        jPHistorial.add(jLRel, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 530, 50, 30));
 
-        jLabelColonia.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelColonia.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelColonia.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelColonia.setText("Colonia:");
-        jPanelHistorial.add(jLabelColonia, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 490, 60, 30));
+        jLcolonia.setBackground(new java.awt.Color(255, 255, 255));
+        jLcolonia.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLcolonia.setForeground(new java.awt.Color(96, 83, 150));
+        jLcolonia.setText("Colonia:");
+        jPHistorial.add(jLcolonia, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 490, 50, 30));
 
-        jLabelMunicipio.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelMunicipio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelMunicipio.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelMunicipio.setText("Municipio:");
-        jPanelHistorial.add(jLabelMunicipio, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 60, 30));
+        jLmunicipio.setBackground(new java.awt.Color(255, 255, 255));
+        jLmunicipio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLmunicipio.setForeground(new java.awt.Color(96, 83, 150));
+        jLmunicipio.setText("Municipio:");
+        jPHistorial.add(jLmunicipio, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 60, 30));
 
-        jLabelNumero.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelNumero.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelNumero.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelNumero.setText("Número:");
-        jPanelHistorial.add(jLabelNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 60, 30));
+        jLnumero.setBackground(new java.awt.Color(255, 255, 255));
+        jLnumero.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLnumero.setForeground(new java.awt.Color(96, 83, 150));
+        jLnumero.setText("Número:");
+        jPHistorial.add(jLnumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 50, 30));
 
-        jLabelCalle.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCalle.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCalle.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCalle.setText("Calle:");
-        jPanelHistorial.add(jLabelCalle, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 520, 60, 30));
+        jLcalle.setBackground(new java.awt.Color(255, 255, 255));
+        jLcalle.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLcalle.setForeground(new java.awt.Color(96, 83, 150));
+        jLcalle.setText("Calle:");
+        jPHistorial.add(jLcalle, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 520, 30, 30));
 
-        jButtonInsertImg.setBackground(new java.awt.Color(255, 255, 255));
-        jButtonInsertImg.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButtonInsertImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario.png"))); // NOI18N
-        jButtonInsertImg.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(232, 201, 232)));
-        jButtonInsertImg.setContentAreaFilled(false);
-        jButtonInsertImg.addActionListener(new java.awt.event.ActionListener() {
+        jBInsImg.setBackground(new java.awt.Color(255, 255, 255));
+        jBInsImg.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jBInsImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario.png"))); // NOI18N
+        jBInsImg.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(232, 201, 232)));
+        jBInsImg.setContentAreaFilled(false);
+        jBInsImg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonInsertImgActionPerformed(evt);
+                jBInsImgActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jButtonInsertImg, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 110, 160, 180));
+        jPHistorial.add(jBInsImg, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 110, 160, 180));
 
-        jLabelTitulo5.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo5.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo5.setText("Otros");
-        jLabelTitulo5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jPanelHistorial.add(jLabelTitulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 350, 120, 30));
+        jLTitulo5.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo5.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLTitulo5.setText("Otros");
+        jLTitulo5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPHistorial.add(jLTitulo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 350, 120, 30));
 
-        jLabelTrabajo.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTrabajo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTrabajo.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTrabajo.setText("Trabajo:");
-        jPanelHistorial.add(jLabelTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 540, 50, 30));
+        jLTra.setBackground(new java.awt.Color(255, 255, 255));
+        jLTra.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTra.setForeground(new java.awt.Color(96, 83, 150));
+        jLTra.setText("Trabajo:");
+        jPHistorial.add(jLTra, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 560, 50, 30));
 
-        jLabelEdad.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelEdad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelEdad.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelEdad.setText("Edad:");
-        jPanelHistorial.add(jLabelEdad, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 390, 30, 30));
+        jLedad.setBackground(new java.awt.Color(255, 255, 255));
+        jLedad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLedad.setForeground(new java.awt.Color(96, 83, 150));
+        jLedad.setText("Edad:");
+        jPHistorial.add(jLedad, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, 30, 30));
 
-        jLabelSexo.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelSexo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelSexo.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelSexo.setText("Sexo:");
-        jPanelHistorial.add(jLabelSexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 420, 40, 30));
+        jLsexo.setBackground(new java.awt.Color(255, 255, 255));
+        jLsexo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLsexo.setForeground(new java.awt.Color(96, 83, 150));
+        jLsexo.setText("Sexo:");
+        jPHistorial.add(jLsexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 450, 40, 30));
 
         jSeparator6.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator6.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 168, 250, 10));
+        jPHistorial.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 168, 250, 10));
 
         jSeparator7.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator7.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, 270, 10));
+        jPHistorial.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 200, 270, 10));
 
         jSeparator8.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator8.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, 320, 10));
+        jPHistorial.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, 320, 10));
 
         jSeparator9.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator9.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 330, 10));
+        jPHistorial.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 290, 330, 10));
 
-        jTextFieldTelefonoCelularDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldTelefonoCelularDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldTelefonoCelularDoc.setBorder(null);
-        jTextFieldTelefonoCelularDoc.addActionListener(new java.awt.event.ActionListener() {
+        jTFTelCel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFTelCel.setForeground(new java.awt.Color(96, 83, 150));
+        jTFTelCel.setBorder(null);
+        jTFTelCel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldTelefonoCelularDocActionPerformed(evt);
+                jTFTelCelActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldTelefonoCelularDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 910, 310, 20));
+        jPHistorial.add(jTFTelCel, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 1120, 310, 20));
 
-        jTextFieldNomCompPac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldNomCompPac.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldNomCompPac.setBorder(null);
-        jTextFieldNomCompPac.addActionListener(new java.awt.event.ActionListener() {
+        jTFNomCP.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFNomCP.setForeground(new java.awt.Color(96, 83, 150));
+        jTFNomCP.setBorder(null);
+        jTFNomCP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldNomCompPacActionPerformed(evt);
+                jTFNomCPActionPerformed(evt);
             }
         });
-        jTextFieldNomCompPac.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTFNomCP.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextFieldNomCompPacKeyPressed(evt);
+                jTFNomCPKeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextFieldNomCompPacKeyTyped(evt);
+                jTFNomCPKeyTyped(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldNomCompPac, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 250, 20));
+        jPHistorial.add(jTFNomCP, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 250, 20));
 
-        jTextFieldFolio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldFolio.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldFolio.setBorder(null);
-        jTextFieldFolio.addActionListener(new java.awt.event.ActionListener() {
+        jTFfolio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFfolio.setForeground(new java.awt.Color(96, 83, 150));
+        jTFfolio.setBorder(null);
+        jTFfolio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldFolioActionPerformed(evt);
+                jTFfolioActionPerformed(evt);
             }
         });
-        jTextFieldFolio.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTFfolio.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextFieldFolioKeyPressed(evt);
+                jTFfolioKeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextFieldFolioKeyTyped(evt);
+                jTFfolioKeyTyped(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldFolio, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 270, 20));
+        jPHistorial.add(jTFfolio, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 270, 20));
 
-        jTextCurp2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextCurp2.setForeground(new java.awt.Color(96, 83, 150));
-        jTextCurp2.setBorder(null);
-        jTextCurp2.addActionListener(new java.awt.event.ActionListener() {
+        jTCurp2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTCurp2.setForeground(new java.awt.Color(96, 83, 150));
+        jTCurp2.setBorder(null);
+        jTCurp2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextCurp2ActionPerformed(evt);
+                jTCurp2ActionPerformed(evt);
             }
         });
-        jTextCurp2.addKeyListener(new java.awt.event.KeyAdapter() {
+        jTCurp2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
-                jTextCurp2KeyPressed(evt);
+                jTCurp2KeyPressed(evt);
             }
             public void keyTyped(java.awt.event.KeyEvent evt) {
-                jTextCurp2KeyTyped(evt);
+                jTCurp2KeyTyped(evt);
             }
         });
-        jPanelHistorial.add(jTextCurp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 320, 20));
+        jPHistorial.add(jTCurp2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 320, 20));
 
-        jTextFieldFecNac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldFecNac.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldFecNac.setBorder(null);
-        jTextFieldFecNac.addActionListener(new java.awt.event.ActionListener() {
+        jTFFNac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFFNac.setForeground(new java.awt.Color(96, 83, 150));
+        jTFFNac.setBorder(null);
+        jTFFNac.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldFecNacActionPerformed(evt);
+                jTFFNacActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldFecNac, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 240, 230, 20));
+        jPHistorial.add(jTFFNac, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 240, 230, 20));
 
         jTextField10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTextField10.setForeground(new java.awt.Color(96, 83, 150));
@@ -801,113 +818,109 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextField10ActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 270, 20));
+        jPHistorial.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 270, 20));
 
         jSeparator10.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator10.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 350, 290, 10));
+        jPHistorial.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 350, 290, 10));
 
         jSeparator11.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator11.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 480, 240, 10));
+        jPHistorial.add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 480, 240, 10));
 
         jSeparator12.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator12.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 510, 250, 10));
+        jPHistorial.add(jSeparator12, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 510, 250, 10));
 
         jSeparator13.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator13.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 540, 270, 10));
+        jPHistorial.add(jSeparator13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 540, 270, 10));
 
         jSeparator14.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator14.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator14, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 600, 220, 10));
+        jPHistorial.add(jSeparator14, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 600, 220, 10));
 
         jSeparator15.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator15.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator15, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 530, 250, 10));
+        jPHistorial.add(jSeparator15, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 550, 250, 10));
 
         jSeparator16.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator16.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator16, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 220, 10));
+        jPHistorial.add(jSeparator16, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 520, 220, 10));
 
         jSeparator17.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator17.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator17, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 410, 270, 10));
+        jPHistorial.add(jSeparator17, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, 100, 10));
 
-        jSeparator18.setBackground(new java.awt.Color(232, 201, 232));
-        jSeparator18.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator18, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 440, 270, 10));
-
-        jTextFielTelefono.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFielTelefono.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFielTelefono.setBorder(null);
-        jTextFielTelefono.addActionListener(new java.awt.event.ActionListener() {
+        jTFTelefono.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFTelefono.setForeground(new java.awt.Color(96, 83, 150));
+        jTFTelefono.setBorder(null);
+        jTFTelefono.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFielTelefonoActionPerformed(evt);
+                jTFTelefonoActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFielTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 290, 20));
+        jPHistorial.add(jTFTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 330, 290, 20));
 
-        jTextFieldMunicipio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldMunicipio.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldMunicipio.setBorder(null);
-        jTextFieldMunicipio.addActionListener(new java.awt.event.ActionListener() {
+        jTFmunicipio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFmunicipio.setForeground(new java.awt.Color(96, 83, 150));
+        jTFmunicipio.setBorder(null);
+        jTFmunicipio.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldMunicipioActionPerformed(evt);
+                jTFmunicipioActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldMunicipio, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 240, 20));
+        jPHistorial.add(jTFmunicipio, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 460, 240, 20));
 
-        jTextFieldColonia.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldColonia.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldColonia.setBorder(null);
-        jTextFieldColonia.addActionListener(new java.awt.event.ActionListener() {
+        jTFcolonia.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFcolonia.setForeground(new java.awt.Color(96, 83, 150));
+        jTFcolonia.setBorder(null);
+        jTFcolonia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldColoniaActionPerformed(evt);
+                jTFcoloniaActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldColonia, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 490, 250, 20));
+        jPHistorial.add(jTFcolonia, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 490, 250, 20));
 
-        jTextFieldCalle.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldCalle.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldCalle.setBorder(null);
-        jTextFieldCalle.addActionListener(new java.awt.event.ActionListener() {
+        jTFcalle.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFcalle.setForeground(new java.awt.Color(96, 83, 150));
+        jTFcalle.setBorder(null);
+        jTFcalle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldCalleActionPerformed(evt);
+                jTFcalleActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldCalle, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 520, 270, 20));
+        jPHistorial.add(jTFcalle, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 520, 270, 20));
 
-        jTextFieldNumero.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldNumero.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldNumero.setBorder(null);
-        jTextFieldNumero.addActionListener(new java.awt.event.ActionListener() {
+        jTFnumero.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFnumero.setForeground(new java.awt.Color(96, 83, 150));
+        jTFnumero.setBorder(null);
+        jTFnumero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldNumeroActionPerformed(evt);
+                jTFnumeroActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 550, 250, 20));
+        jPHistorial.add(jTFnumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 550, 250, 20));
 
-        jTextFieldReligion.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldReligion.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldReligion.setBorder(null);
-        jTextFieldReligion.addActionListener(new java.awt.event.ActionListener() {
+        jTFRel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFRel.setForeground(new java.awt.Color(96, 83, 150));
+        jTFRel.setBorder(null);
+        jTFRel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldReligionActionPerformed(evt);
+                jTFRelActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldReligion, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 510, 250, 20));
+        jPHistorial.add(jTFRel, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 530, 250, 20));
 
-        jTextFieldTrabajo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldTrabajo.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldTrabajo.setBorder(null);
-        jTextFieldTrabajo.addActionListener(new java.awt.event.ActionListener() {
+        jTFTra.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFTra.setForeground(new java.awt.Color(96, 83, 150));
+        jTFTra.setBorder(null);
+        jTFTra.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldTrabajoActionPerformed(evt);
+                jTFTraActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldTrabajo, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 540, 250, 20));
+        jPHistorial.add(jTFTra, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 560, 250, 20));
 
         jTextFieldEdad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTextFieldEdad.setForeground(new java.awt.Color(96, 83, 150));
@@ -917,53 +930,43 @@ public class Ventana_Paciente extends javax.swing.JFrame {
                 jTextFieldEdadActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldEdad, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, 270, 20));
+        jPHistorial.add(jTextFieldEdad, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 400, 100, 20));
 
-        jTextFieldSexo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldSexo.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldSexo.setBorder(null);
-        jTextFieldSexo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldSexoActionPerformed(evt);
-            }
-        });
-        jPanelHistorial.add(jTextFieldSexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, 270, 20));
+        jPDiseño5.setBackground(new java.awt.Color(232, 201, 232));
 
-        jPanelDiseño5.setBackground(new java.awt.Color(232, 201, 232));
-
-        javax.swing.GroupLayout jPanelDiseño5Layout = new javax.swing.GroupLayout(jPanelDiseño5);
-        jPanelDiseño5.setLayout(jPanelDiseño5Layout);
-        jPanelDiseño5Layout.setHorizontalGroup(
-            jPanelDiseño5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño5Layout = new javax.swing.GroupLayout(jPDiseño5);
+        jPDiseño5.setLayout(jPDiseño5Layout);
+        jPDiseño5Layout.setHorizontalGroup(
+            jPDiseño5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 430, Short.MAX_VALUE)
         );
-        jPanelDiseño5Layout.setVerticalGroup(
-            jPanelDiseño5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño5Layout.setVerticalGroup(
+            jPDiseño5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño5, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 60, 430, 10));
+        jPHistorial.add(jPDiseño5, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 60, 430, 10));
 
-        jLabelTitulo6.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabelTitulo6.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo6.setText("Datos del Medico");
-        jPanelHistorial.add(jLabelTitulo6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 720, 160, 20));
+        jLTitulo6.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLTitulo6.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo6.setText("Datos del Medico");
+        jPHistorial.add(jLTitulo6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 720, 160, 20));
 
-        jPanelDiseño9.setBackground(new java.awt.Color(232, 201, 232));
+        jPDiseño9.setBackground(new java.awt.Color(232, 201, 232));
 
-        javax.swing.GroupLayout jPanelDiseño9Layout = new javax.swing.GroupLayout(jPanelDiseño9);
-        jPanelDiseño9.setLayout(jPanelDiseño9Layout);
-        jPanelDiseño9Layout.setHorizontalGroup(
-            jPanelDiseño9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño9Layout = new javax.swing.GroupLayout(jPDiseño9);
+        jPDiseño9.setLayout(jPDiseño9Layout);
+        jPDiseño9Layout.setHorizontalGroup(
+            jPDiseño9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 160, Short.MAX_VALUE)
         );
-        jPanelDiseño9Layout.setVerticalGroup(
-            jPanelDiseño9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño9Layout.setVerticalGroup(
+            jPDiseño9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 710, 160, 10));
+        jPHistorial.add(jPDiseño9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 710, 160, 10));
 
         jPanelDiseño10.setBackground(new java.awt.Color(232, 201, 232));
 
@@ -978,84 +981,60 @@ public class Ventana_Paciente extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 660, -1, -1));
+        jPHistorial.add(jPanelDiseño10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 660, -1, -1));
 
-        jComboBoxDoctores.setBackground(new java.awt.Color(96, 83, 150));
-        jComboBoxDoctores.setEditable(true);
-        jComboBoxDoctores.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jComboBoxDoctores.setForeground(new java.awt.Color(96, 83, 150));
-        jComboBoxDoctores.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Doctor", "Item 2", "Item 3", "Item 4" }));
-        jComboBoxDoctores.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jComboBoxDoctores.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jComboBoxDoctores.setFocusCycleRoot(true);
-        jPanelHistorial.add(jComboBoxDoctores, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 760, 410, -1));
+        jLTipSan.setBackground(new java.awt.Color(255, 255, 255));
+        jLTipSan.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTipSan.setForeground(new java.awt.Color(96, 83, 150));
+        jLTipSan.setText("Tipo de Sangre:");
+        jPHistorial.add(jLTipSan, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 450, 90, 30));
 
-        jLabelTipSangre.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTipSangre.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTipSangre.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTipSangre.setText("Tipo de Sangre:");
-        jPanelHistorial.add(jLabelTipSangre, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 450, 90, 30));
+        jLCProD.setBackground(new java.awt.Color(255, 255, 255));
+        jLCProD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLCProD.setForeground(new java.awt.Color(96, 83, 150));
+        jLCProD.setText("Cédula Profesional:");
+        jPHistorial.add(jLCProD, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 1000, 110, 30));
 
-        jLabelCedulaProfesional.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCedulaProfesional.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCedulaProfesional.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCedulaProfesional.setText("Cédula Profesional:");
-        jPanelHistorial.add(jLabelCedulaProfesional, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 790, 110, 30));
+        jLDirD.setBackground(new java.awt.Color(255, 255, 255));
+        jLDirD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLDirD.setForeground(new java.awt.Color(96, 83, 150));
+        jLDirD.setText("Dirección:");
+        jPHistorial.add(jLDirD, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 1040, 60, 30));
 
-        jLabelDireccionDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelDireccionDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelDireccionDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelDireccionDoc.setText("Dirección:");
-        jPanelHistorial.add(jLabelDireccionDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 830, 60, 30));
+        jLTitulo8.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo8.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLTitulo8.setText("Descripción de los Antecedentes del Paciente");
+        jPHistorial.add(jLTitulo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 1260, 970, 30));
 
-        jLabelTitulo8.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo8.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabelTitulo8.setText("Descripción de los Antecedentes del Paciente");
-        jPanelHistorial.add(jLabelTitulo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 1070, 970, 30));
+        jLEdadD.setBackground(new java.awt.Color(255, 255, 255));
+        jLEdadD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLEdadD.setForeground(new java.awt.Color(96, 83, 150));
+        jLEdadD.setText("Edad:");
+        jPHistorial.add(jLEdadD, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1070, 30, 30));
 
-        jLabelEdadDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelEdadDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelEdadDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelEdadDoc.setText("Edad:");
-        jPanelHistorial.add(jLabelEdadDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 850, 30, 30));
-
-        jLabelSexoDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelSexoDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelSexoDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelSexoDoc.setText("Sexo:");
-        jPanelHistorial.add(jLabelSexoDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 880, 40, 30));
-
-        jSeparator19.setBackground(new java.awt.Color(232, 201, 232));
-        jSeparator19.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator19, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 470, 210, 10));
+        jLSexoD.setBackground(new java.awt.Color(255, 255, 255));
+        jLSexoD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLSexoD.setForeground(new java.awt.Color(96, 83, 150));
+        jLSexoD.setText("Sexo:");
+        jPHistorial.add(jLSexoD, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 1070, 40, 30));
 
         jSeparator21.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator21.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator21, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 810, 300, 10));
+        jPHistorial.add(jSeparator21, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 1020, 300, 10));
 
         jSeparator22.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator22.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator22, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 850, 350, 10));
+        jPHistorial.add(jSeparator22, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1060, 350, 10));
 
         jSeparator23.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator23.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator23, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 870, 200, 10));
+        jPHistorial.add(jSeparator23, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 1090, 80, 10));
 
         jSeparator24.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator24.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator24, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 900, 200, 10));
-
-        jTextFieldTipSangre.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldTipSangre.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldTipSangre.setBorder(null);
-        jTextFieldTipSangre.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldTipSangreActionPerformed(evt);
-            }
-        });
-        jPanelHistorial.add(jTextFieldTipSangre, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 450, 210, 20));
+        jPHistorial.add(jSeparator24, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 1090, 80, 10));
 
         jPanelDiseño11.setBackground(new java.awt.Color(232, 201, 232));
 
@@ -1070,28 +1049,28 @@ public class Ventana_Paciente extends javax.swing.JFrame {
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 880, -1, 10));
+        jPHistorial.add(jPanelDiseño11, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 880, -1, 10));
 
-        jLabelTitulo7.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabelTitulo7.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo7.setText("Datos Clínicos");
-        jPanelHistorial.add(jLabelTitulo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1020, 160, 20));
+        jLTitulo7.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLTitulo7.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo7.setText("Datos Clínicos");
+        jPHistorial.add(jLTitulo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1210, 160, 20));
 
-        jPanelDiseño12.setBackground(new java.awt.Color(232, 201, 232));
+        jPDiseño12.setBackground(new java.awt.Color(232, 201, 232));
 
-        javax.swing.GroupLayout jPanelDiseño12Layout = new javax.swing.GroupLayout(jPanelDiseño12);
-        jPanelDiseño12.setLayout(jPanelDiseño12Layout);
-        jPanelDiseño12Layout.setHorizontalGroup(
-            jPanelDiseño12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout jPDiseño12Layout = new javax.swing.GroupLayout(jPDiseño12);
+        jPDiseño12.setLayout(jPDiseño12Layout);
+        jPDiseño12Layout.setHorizontalGroup(
+            jPDiseño12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 160, Short.MAX_VALUE)
         );
-        jPanelDiseño12Layout.setVerticalGroup(
-            jPanelDiseño12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        jPDiseño12Layout.setVerticalGroup(
+            jPDiseño12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 10, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1010, 160, 10));
+        jPHistorial.add(jPDiseño12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1200, 160, 10));
 
         jPanelDiseño13.setBackground(new java.awt.Color(232, 201, 232));
 
@@ -1106,48 +1085,48 @@ public class Ventana_Paciente extends javax.swing.JFrame {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jPanelHistorial.add(jPanelDiseño13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 930, -1, -1));
+        jPHistorial.add(jPanelDiseño13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 930, -1, -1));
 
-        jLabelTitulo12.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo12.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo12.setText("Antecedentes  Quirurgicos:");
-        jPanelHistorial.add(jLabelTitulo12, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1360, 170, 30));
+        jLTitulo12.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo12.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo12.setText("Antecedentes  Quirurgicos:");
+        jPHistorial.add(jLTitulo12, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1550, 170, 30));
 
-        jLabelTelefonoCelularDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTelefonoCelularDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTelefonoCelularDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTelefonoCelularDoc.setText("Teléfono Celular:");
-        jPanelHistorial.add(jLabelTelefonoCelularDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 910, 100, 30));
+        jLTelCel.setBackground(new java.awt.Color(255, 255, 255));
+        jLTelCel.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTelCel.setForeground(new java.awt.Color(96, 83, 150));
+        jLTelCel.setText("Teléfono Celular:");
+        jPHistorial.add(jLTelCel, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 1120, 100, 30));
 
-        jLabelTitulo10.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo10.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo10.setText("Antecedentes Heredo-Familiares");
-        jPanelHistorial.add(jLabelTitulo10, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1130, 200, 20));
+        jLTitulo10.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo10.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo10.setText("Antecedentes Heredo-Familiares");
+        jPHistorial.add(jLTitulo10, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 1320, 200, 20));
 
-        jLabelTitulo9.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo9.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo9.setText("Antecedentes Personales:");
-        jPanelHistorial.add(jLabelTitulo9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1120, 150, 30));
+        jLTitulo9.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo9.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo9.setText("Antecedentes Personales:");
+        jPHistorial.add(jLTitulo9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1310, 150, 30));
 
-        jLabelTitulo11.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTitulo11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTitulo11.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTitulo11.setText("Antecedentes Patologicos");
-        jPanelHistorial.add(jLabelTitulo11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1370, 150, 30));
+        jLTitulo11.setBackground(new java.awt.Color(255, 255, 255));
+        jLTitulo11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTitulo11.setForeground(new java.awt.Color(96, 83, 150));
+        jLTitulo11.setText("Antecedentes Patologicos");
+        jPHistorial.add(jLTitulo11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 1560, 150, 30));
 
         jScrollPane2.setForeground(new java.awt.Color(255, 255, 255));
         jScrollPane2.setAutoscrolls(true);
 
-        jTextAreaAntPer.setColumns(20);
-        jTextAreaAntPer.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextAreaAntPer.setForeground(new java.awt.Color(96, 83, 150));
-        jTextAreaAntPer.setLineWrap(true);
-        jTextAreaAntPer.setRows(5);
-        jTextAreaAntPer.setText("Escribir Aquí...");
-        jScrollPane6.setViewportView(jTextAreaAntPer);
+        jTAAntPer.setColumns(20);
+        jTAAntPer.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTAAntPer.setForeground(new java.awt.Color(96, 83, 150));
+        jTAAntPer.setLineWrap(true);
+        jTAAntPer.setRows(5);
+        jTAAntPer.setText("Escribir Aquí...");
+        jScrollPane6.setViewportView(jTAAntPer);
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -1166,15 +1145,15 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
         jScrollPane2.setViewportView(jPanel18);
 
-        jPanelHistorial.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1150, 400, 180));
+        jPHistorial.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1340, 400, 180));
 
-        jTextAreaAntFam.setColumns(20);
-        jTextAreaAntFam.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextAreaAntFam.setForeground(new java.awt.Color(96, 83, 150));
-        jTextAreaAntFam.setLineWrap(true);
-        jTextAreaAntFam.setRows(5);
-        jTextAreaAntFam.setText("Escribir Aquí...");
-        jScrollPane7.setViewportView(jTextAreaAntFam);
+        jTAAntFam.setColumns(20);
+        jTAAntFam.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTAAntFam.setForeground(new java.awt.Color(96, 83, 150));
+        jTAAntFam.setLineWrap(true);
+        jTAAntFam.setRows(5);
+        jTAAntFam.setText("Escribir Aquí...");
+        jScrollPane7.setViewportView(jTAAntFam);
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -1193,15 +1172,15 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
         jScrollPane3.setViewportView(jPanel19);
 
-        jPanelHistorial.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1150, 430, 180));
+        jPHistorial.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1340, 430, 180));
 
-        jTextAreaAntPat.setColumns(20);
-        jTextAreaAntPat.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextAreaAntPat.setForeground(new java.awt.Color(96, 83, 150));
-        jTextAreaAntPat.setLineWrap(true);
-        jTextAreaAntPat.setRows(5);
-        jTextAreaAntPat.setText("Escribir Aquí...");
-        jScrollPane8.setViewportView(jTextAreaAntPat);
+        jTAAntPat.setColumns(20);
+        jTAAntPat.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTAAntPat.setForeground(new java.awt.Color(96, 83, 150));
+        jTAAntPat.setLineWrap(true);
+        jTAAntPat.setRows(5);
+        jTAAntPat.setText("Escribir Aquí...");
+        jScrollPane8.setViewportView(jTAAntPat);
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
@@ -1220,15 +1199,15 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
         jScrollPane4.setViewportView(jPanel20);
 
-        jPanelHistorial.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1400, 400, 180));
+        jPHistorial.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1590, 400, 180));
 
-        jTextAreaAntQuir.setColumns(20);
-        jTextAreaAntQuir.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextAreaAntQuir.setForeground(new java.awt.Color(96, 83, 150));
-        jTextAreaAntQuir.setLineWrap(true);
-        jTextAreaAntQuir.setRows(5);
-        jTextAreaAntQuir.setText("Escribir Aquí...");
-        jScrollPane9.setViewportView(jTextAreaAntQuir);
+        jTAAntQuir.setColumns(20);
+        jTAAntQuir.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTAAntQuir.setForeground(new java.awt.Color(96, 83, 150));
+        jTAAntQuir.setLineWrap(true);
+        jTAAntQuir.setRows(5);
+        jTAAntQuir.setText("Escribir Aquí...");
+        jScrollPane9.setViewportView(jTAAntQuir);
 
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
@@ -1247,312 +1226,338 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
         jScrollPane5.setViewportView(jPanel21);
 
-        jPanelHistorial.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1390, 430, 180));
+        jPHistorial.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 1580, 430, 180));
 
-        jButtonModificar.setBackground(new java.awt.Color(232, 201, 232));
-        jButtonModificar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButtonModificar.setForeground(new java.awt.Color(96, 83, 150));
-        jButtonModificar.setText("Modificar");
-        jButtonModificar.setBorder(new javax.swing.border.MatteBorder(null));
-        jButtonModificar.setBorderPainted(false);
-        jButtonModificar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanelHistorial.add(jButtonModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 1670, 160, 40));
-
-        jButtonGuardar.setBackground(new java.awt.Color(232, 201, 232));
-        jButtonGuardar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jButtonGuardar.setForeground(new java.awt.Color(96, 83, 150));
-        jButtonGuardar.setText("Guardar");
-        jButtonGuardar.setBorder(new javax.swing.border.MatteBorder(null));
-        jButtonGuardar.setBorderPainted(false);
-        jButtonGuardar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jButtonGuardar.addActionListener(new java.awt.event.ActionListener() {
+        jTFCProD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFCProD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFCProD.setBorder(null);
+        jTFCProD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonGuardarActionPerformed(evt);
+                jTFCProDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jButtonGuardar, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 1670, 160, 40));
+        jPHistorial.add(jTFCProD, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 1000, 300, 20));
 
-        jTextFieldCedulaProfesional.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldCedulaProfesional.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldCedulaProfesional.setBorder(null);
-        jTextFieldCedulaProfesional.addActionListener(new java.awt.event.ActionListener() {
+        jTFDirD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFDirD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFDirD.setBorder(null);
+        jTFDirD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldCedulaProfesionalActionPerformed(evt);
+                jTFDirDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldCedulaProfesional, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 790, 300, 20));
+        jPHistorial.add(jTFDirD, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 1040, 350, 20));
 
-        jTextFieldDireccionDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldDireccionDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldDireccionDoc.setBorder(null);
-        jTextFieldDireccionDoc.addActionListener(new java.awt.event.ActionListener() {
+        jTFEdadD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFEdadD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFEdadD.setBorder(null);
+        jTFEdadD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldDireccionDocActionPerformed(evt);
+                jTFEdadDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldDireccionDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 830, 350, 20));
+        jPHistorial.add(jTFEdadD, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 1070, 80, 20));
 
-        jTextFieldEdadDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldEdadDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldEdadDoc.setBorder(null);
-        jTextFieldEdadDoc.addActionListener(new java.awt.event.ActionListener() {
+        jLTelefono.setBackground(new java.awt.Color(255, 255, 255));
+        jLTelefono.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTelefono.setForeground(new java.awt.Color(96, 83, 150));
+        jLTelefono.setText("Teléfono:");
+        jPHistorial.add(jLTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 60, 30));
+
+        jTFcorreo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFcorreo.setForeground(new java.awt.Color(96, 83, 150));
+        jTFcorreo.setBorder(null);
+        jTFcorreo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldEdadDocActionPerformed(evt);
+                jTFcorreoActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldEdadDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 850, 200, 20));
-
-        jTextFieldSexoDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldSexoDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldSexoDoc.setBorder(null);
-        jTextFieldSexoDoc.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldSexoDocActionPerformed(evt);
-            }
-        });
-        jPanelHistorial.add(jTextFieldSexoDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 880, 200, 20));
-
-        jLabelTelefono1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTelefono1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTelefono1.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTelefono1.setText("Teléfono:");
-        jPanelHistorial.add(jLabelTelefono1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 330, 60, 30));
-
-        jTextFielCorreo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFielCorreo.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFielCorreo.setBorder(null);
-        jTextFielCorreo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFielCorreoActionPerformed(evt);
-            }
-        });
-        jPanelHistorial.add(jTextFielCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 310, 20));
+        jPHistorial.add(jTFcorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 310, 20));
 
         jSeparator26.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator26.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator26, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 930, 310, 10));
+        jPHistorial.add(jSeparator26, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 1140, 310, 10));
 
-        jLabelNSS.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelNSS.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelNSS.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelNSS.setText("NSS:");
-        jPanelHistorial.add(jLabelNSS, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 30, 30));
+        jLNSS.setBackground(new java.awt.Color(255, 255, 255));
+        jLNSS.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLNSS.setForeground(new java.awt.Color(96, 83, 150));
+        jLNSS.setText("NSS:");
+        jPHistorial.add(jLNSS, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, 30, 30));
 
-        jLabelRFC.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelRFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelRFC.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelRFC.setText("RFC:");
-        jPanelHistorial.add(jLabelRFC, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 30, 30));
+        jLRFC.setBackground(new java.awt.Color(255, 255, 255));
+        jLRFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLRFC.setForeground(new java.awt.Color(96, 83, 150));
+        jLRFC.setText("RFC:");
+        jPHistorial.add(jLRFC, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 30, 30));
 
         jSeparator27.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator27.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator27, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 260, 230, 10));
+        jPHistorial.add(jSeparator27, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 260, 230, 10));
 
         jSeparator28.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator28.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator28, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 330, 10));
+        jPHistorial.add(jSeparator28, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 320, 330, 10));
 
-        jTextFielNSS.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFielNSS.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFielNSS.setBorder(null);
-        jTextFielNSS.addActionListener(new java.awt.event.ActionListener() {
+        jTFNSS.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFNSS.setForeground(new java.awt.Color(96, 83, 150));
+        jTFNSS.setBorder(null);
+        jTFNSS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFielNSSActionPerformed(evt);
+                jTFNSSActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFielNSS, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 300, 330, 20));
+        jPHistorial.add(jTFNSS, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 300, 330, 20));
 
-        jTextFielRFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFielRFC.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFielRFC.setBorder(null);
-        jTextFielRFC.addActionListener(new java.awt.event.ActionListener() {
+        jTFRFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFRFC.setForeground(new java.awt.Color(96, 83, 150));
+        jTFRFC.setBorder(null);
+        jTFRFC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFielRFCActionPerformed(evt);
+                jTFRFCActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFielRFC, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 270, 330, 20));
+        jPHistorial.add(jTFRFC, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 270, 330, 20));
 
-        jLabelCpostal.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCpostal.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCpostal.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCpostal.setText("Código Postal:");
-        jPanelHistorial.add(jLabelCpostal, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 580, 80, 30));
+        jLCpostal.setBackground(new java.awt.Color(255, 255, 255));
+        jLCpostal.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLCpostal.setForeground(new java.awt.Color(96, 83, 150));
+        jLCpostal.setText("Código Postal:");
+        jPHistorial.add(jLCpostal, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 580, 80, 30));
 
-        jTextFieldNumero1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldNumero1.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldNumero1.setBorder(null);
-        jTextFieldNumero1.addActionListener(new java.awt.event.ActionListener() {
+        jTFCpostal.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFCpostal.setForeground(new java.awt.Color(96, 83, 150));
+        jTFCpostal.setBorder(null);
+        jTFCpostal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldNumero1ActionPerformed(evt);
+                jTFCpostalActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldNumero1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 580, 220, 20));
+        jPHistorial.add(jTFCpostal, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 580, 220, 20));
 
         jSeparator29.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator29.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 570, 250, 10));
+        jPHistorial.add(jSeparator29, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 570, 250, 10));
 
-        jLabelNacionalidad.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelNacionalidad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelNacionalidad.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelNacionalidad.setText("Nacionalidad:");
-        jPanelHistorial.add(jLabelNacionalidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 480, 90, 30));
+        jLNac.setBackground(new java.awt.Color(255, 255, 255));
+        jLNac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLNac.setForeground(new java.awt.Color(96, 83, 150));
+        jLNac.setText("Nacionalidad:");
+        jPHistorial.add(jLNac, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 500, 80, 30));
 
-        jLabelTipCedulaProfesionalPaci.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTipCedulaProfesionalPaci.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTipCedulaProfesionalPaci.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTipCedulaProfesionalPaci.setText("Cédula Profesional:");
-        jPanelHistorial.add(jLabelTipCedulaProfesionalPaci, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 580, 110, 30));
+        jLCProP.setBackground(new java.awt.Color(255, 255, 255));
+        jLCProP.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLCProP.setForeground(new java.awt.Color(96, 83, 150));
+        jLCProP.setText("Cédula Profesional:");
+        jPHistorial.add(jLCProP, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 600, 110, 30));
 
-        jTextFieldCedulaProfesionalPaci.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldCedulaProfesionalPaci.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldCedulaProfesionalPaci.setBorder(null);
-        jTextFieldCedulaProfesionalPaci.addActionListener(new java.awt.event.ActionListener() {
+        jTFCProP.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFCProP.setForeground(new java.awt.Color(96, 83, 150));
+        jTFCProP.setBorder(null);
+        jTFCProP.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldCedulaProfesionalPaciActionPerformed(evt);
+                jTFCProPActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldCedulaProfesionalPaci, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 580, 190, 20));
+        jPHistorial.add(jTFCProP, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 600, 190, 20));
 
-        jTextFieldNacionalidad.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldNacionalidad.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldNacionalidad.setBorder(null);
-        jTextFieldNacionalidad.addActionListener(new java.awt.event.ActionListener() {
+        jTFNac.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFNac.setForeground(new java.awt.Color(96, 83, 150));
+        jTFNac.setBorder(null);
+        jTFNac.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldNacionalidadActionPerformed(evt);
+                jTFNacActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldNacionalidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 480, 220, 20));
+        jPHistorial.add(jTFNac, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 220, 20));
 
         jSeparator30.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator30.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator30, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 560, 250, 10));
+        jPHistorial.add(jSeparator30, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 580, 250, 10));
 
         jSeparator31.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator31.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator31, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 600, 190, 10));
+        jPHistorial.add(jSeparator31, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 620, 190, 10));
 
-        jTextFieldTelefonoDocConsultorio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldTelefonoDocConsultorio.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldTelefonoDocConsultorio.setBorder(null);
-        jTextFieldTelefonoDocConsultorio.addActionListener(new java.awt.event.ActionListener() {
+        jTFTelCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFTelCon.setForeground(new java.awt.Color(96, 83, 150));
+        jTFTelCon.setBorder(null);
+        jTFTelCon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldTelefonoDocConsultorioActionPerformed(evt);
+                jTFTelConActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldTelefonoDocConsultorio, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 870, 270, 20));
+        jPHistorial.add(jTFTelCon, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 1080, 270, 20));
 
-        jLabelTelefonoDocConsultorio.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelTelefonoDocConsultorio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelTelefonoDocConsultorio.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelTelefonoDocConsultorio.setText("Teléfono del Consultorio:");
-        jPanelHistorial.add(jLabelTelefonoDocConsultorio, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 870, 140, 30));
+        jLTelCon.setBackground(new java.awt.Color(255, 255, 255));
+        jLTelCon.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLTelCon.setForeground(new java.awt.Color(96, 83, 150));
+        jLTelCon.setText("Teléfono del Consultorio:");
+        jPHistorial.add(jLTelCon, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 1080, 140, 30));
 
         jSeparator32.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator32.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator32, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 890, 270, 10));
+        jPHistorial.add(jSeparator32, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 1100, 270, 10));
 
-        jLabelRFCDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelRFCDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelRFCDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelRFCDoc.setText("RFC:");
-        jPanelHistorial.add(jLabelRFCDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 820, 40, 30));
+        jLRFCD.setBackground(new java.awt.Color(255, 255, 255));
+        jLRFCD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLRFCD.setForeground(new java.awt.Color(96, 83, 150));
+        jLRFCD.setText("RFC:");
+        jPHistorial.add(jLRFCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 1030, 40, 30));
 
         jSeparator33.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator33.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator33, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 840, 200, 10));
+        jPHistorial.add(jSeparator33, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 1050, 200, 10));
 
-        jTextFieldRFCDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldRFCDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldRFCDoc.setBorder(null);
-        jTextFieldRFCDoc.addActionListener(new java.awt.event.ActionListener() {
+        jTFRFCD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFRFCD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFRFCD.setBorder(null);
+        jTFRFCD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldRFCDocActionPerformed(evt);
+                jTFRFCDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldRFCDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 820, 200, 20));
+        jPHistorial.add(jTFRFCD, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 1030, 200, 20));
 
-        jLabelNacionalidadDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelNacionalidadDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelNacionalidadDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelNacionalidadDoc.setText("Nacionalidad:");
-        jPanelHistorial.add(jLabelNacionalidadDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 910, 80, 30));
+        jLNacD.setBackground(new java.awt.Color(255, 255, 255));
+        jLNacD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLNacD.setForeground(new java.awt.Color(96, 83, 150));
+        jLNacD.setText("Nacionalidad:");
+        jPHistorial.add(jLNacD, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 1110, 80, 30));
 
         jSeparator34.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator34.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator34, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 930, 160, 10));
+        jPHistorial.add(jSeparator34, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 1130, 160, 10));
 
-        jTextFieldNacionalidadDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldNacionalidadDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldNacionalidadDoc.setBorder(null);
-        jTextFieldNacionalidadDoc.addActionListener(new java.awt.event.ActionListener() {
+        jTFNacD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFNacD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFNacD.setBorder(null);
+        jTFNacD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldNacionalidadDocActionPerformed(evt);
+                jTFNacDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldNacionalidadDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 910, 160, 20));
+        jPHistorial.add(jTFNacD, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 1110, 160, 20));
 
-        jLabelCurpDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCurpDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCurpDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCurpDoc.setText("CURP:");
-        jPanelHistorial.add(jLabelCurpDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 790, 40, 30));
+        jLCurpD.setBackground(new java.awt.Color(255, 255, 255));
+        jLCurpD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLCurpD.setForeground(new java.awt.Color(96, 83, 150));
+        jLCurpD.setText("CURP:");
+        jPHistorial.add(jLCurpD, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 1000, 40, 30));
 
         jSeparator35.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator35.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator35, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 810, 200, 10));
+        jPHistorial.add(jSeparator35, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 1020, 200, 10));
 
-        jTextFieldCurpDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldCurpDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldCurpDoc.setBorder(null);
-        jTextFieldCurpDoc.addActionListener(new java.awt.event.ActionListener() {
+        jTFCurpD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFCurpD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFCurpD.setBorder(null);
+        jTFCurpD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldCurpDocActionPerformed(evt);
+                jTFCurpDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldCurpDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 790, 200, 20));
+        jPHistorial.add(jTFCurpD, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 1000, 200, 20));
 
-        jLabelFecahaAtencion.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelFecahaAtencion.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelFecahaAtencion.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelFecahaAtencion.setText("Fecha de Atencion:");
-        jPanelHistorial.add(jLabelFecahaAtencion, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 700, 120, 30));
-
-        jSeparator36.setBackground(new java.awt.Color(232, 201, 232));
-        jSeparator36.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator36, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 720, 230, 10));
-
-        jTextFieldFecahaAtencion.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldFecahaAtencion.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldFecahaAtencion.setBorder(null);
-        jTextFieldFecahaAtencion.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldFecahaAtencionActionPerformed(evt);
-            }
-        });
-        jPanelHistorial.add(jTextFieldFecahaAtencion, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 700, 230, 20));
-
-        jLabelCorreoDoc.setBackground(new java.awt.Color(255, 255, 255));
-        jLabelCorreoDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jLabelCorreoDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jLabelCorreoDoc.setText("Correo:");
-        jPanelHistorial.add(jLabelCorreoDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 940, 50, 30));
+        jLlCorreoD.setBackground(new java.awt.Color(255, 255, 255));
+        jLlCorreoD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLlCorreoD.setForeground(new java.awt.Color(96, 83, 150));
+        jLlCorreoD.setText("Correo:");
+        jPHistorial.add(jLlCorreoD, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 1150, 50, 30));
 
         jSeparator37.setBackground(new java.awt.Color(232, 201, 232));
         jSeparator37.setForeground(new java.awt.Color(232, 201, 232));
-        jPanelHistorial.add(jSeparator37, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 960, 360, 10));
+        jPHistorial.add(jSeparator37, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 1170, 360, 10));
 
-        jTextFieldCorreoDoc.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jTextFieldCorreoDoc.setForeground(new java.awt.Color(96, 83, 150));
-        jTextFieldCorreoDoc.setBorder(null);
-        jTextFieldCorreoDoc.addActionListener(new java.awt.event.ActionListener() {
+        jTFCorreoD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFCorreoD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFCorreoD.setBorder(null);
+        jTFCorreoD.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldCorreoDocActionPerformed(evt);
+                jTFCorreoDActionPerformed(evt);
             }
         });
-        jPanelHistorial.add(jTextFieldCorreoDoc, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 940, 360, 20));
+        jPHistorial.add(jTFCorreoD, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 1150, 360, 20));
 
-        jScrollPaneHistorial.setViewportView(jPanelHistorial);
+        jTDoctores.setAutoCreateRowSorter(true);
+        jTDoctores.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTDoctores.setForeground(new java.awt.Color(96, 83, 150));
+        jTDoctores.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null},
+                {null, null, null}
+            },
+            new String [] {
+                "Especialidad", "Nombre del Doctor", "Fecha de Atencion"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.Object.class, java.lang.Object.class, java.lang.String.class
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+        });
+        jTDoctores.setToolTipText("");
+        jTDoctores.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_NEXT_COLUMN);
+        jTDoctores.setColumnSelectionAllowed(true);
+        jTDoctores.setFocusTraversalPolicyProvider(true);
+        jTDoctores.setGridColor(new java.awt.Color(96, 83, 150));
+        jTDoctores.setSelectionBackground(new java.awt.Color(232, 201, 232));
+        jTDoctores.setShowGrid(true);
+        jScrollPane1.setViewportView(jTDoctores);
+
+        jPHistorial.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 750, 620, 170));
+
+        jLDr.setBackground(new java.awt.Color(255, 255, 255));
+        jLDr.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLDr.setForeground(new java.awt.Color(96, 83, 150));
+        jLDr.setText("DR.");
+        jPHistorial.add(jLDr, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 960, 30, 30));
+
+        jSeparator38.setBackground(new java.awt.Color(232, 201, 232));
+        jSeparator38.setForeground(new java.awt.Color(232, 201, 232));
+        jPHistorial.add(jSeparator38, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 980, 290, 10));
+
+        jTFDr.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFDr.setForeground(new java.awt.Color(96, 83, 150));
+        jTFDr.setBorder(null);
+        jTFDr.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTFDrActionPerformed(evt);
+            }
+        });
+        jPHistorial.add(jTFDr, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 960, 290, 20));
+
+        jCBTipSan.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jCBTipSan.setForeground(new java.awt.Color(96, 83, 150));
+        jCBTipSan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Aún sin definir", "O+", "O-", "B+", "B-", "AB+", "AB-" }));
+        jPHistorial.add(jCBTipSan, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 450, 110, 30));
+
+        jCBsexo.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jCBsexo.setForeground(new java.awt.Color(96, 83, 150));
+        jCBsexo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ninguno", "Femenino", "Masculino" }));
+        jPHistorial.add(jCBsexo, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 450, 110, 30));
+
+        jTFSexoD.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTFSexoD.setForeground(new java.awt.Color(96, 83, 150));
+        jTFSexoD.setBorder(null);
+        jTFSexoD.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTFSexoDActionPerformed(evt);
+            }
+        });
+        jPHistorial.add(jTFSexoD, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 1070, 80, 20));
+
+        jScrollPaneHistorial.setViewportView(jPHistorial);
 
         jPanelGeneral.add(jScrollPaneHistorial, new org.netbeans.lib.awtextra.AbsoluteConstraints(321, 60, -1, 730));
 
@@ -1561,131 +1566,115 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButtonEsconderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEsconderActionPerformed
+    private void jBEsconderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBEsconderActionPerformed
         // TODO add your handling code here:
-                int posicion = jPanelPerfil.getX();
+                int posicion = jPperfil.getX();
         if(posicion > -1){
-            Animacion.Animacion.mover_izquierda(0, -318, 2, 2, jPanelPerfil);
+            Animacion.Animacion.mover_izquierda(0, -318, 2, 2, jPperfil);
             //Animacion.Animacion.mover_izquierda()
         }else{
-            Animacion.Animacion.mover_derecha(-318, 0, 2, 2, jPanelPerfil);
+            Animacion.Animacion.mover_derecha(-318, 0, 2, 2, jPperfil);
         }
-    }//GEN-LAST:event_jButtonEsconderActionPerformed
+    }//GEN-LAST:event_jBEsconderActionPerformed
 
-    private void jTextFieldNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNombreActionPerformed
+    private void JTFNomP1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JTFNomP1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldNombreActionPerformed
+    }//GEN-LAST:event_JTFNomP1ActionPerformed
 
-    private void jTextFieldAPaternoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldAPaternoActionPerformed
+    private void jTFAPaternoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFAPaternoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldAPaternoActionPerformed
+    }//GEN-LAST:event_jTFAPaternoActionPerformed
 
-    private void jTextFieldAMaternoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldAMaternoActionPerformed
+    private void jTFAMaternoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFAMaternoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldAMaternoActionPerformed
+    }//GEN-LAST:event_jTFAMaternoActionPerformed
 
-    private void jTextFieldCurpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCurpActionPerformed
+    private void jTFCurpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFCurpActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldCurpActionPerformed
-
-    private void jTextFieldTipSangreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldTipSangreActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldTipSangreActionPerformed
-
-    private void jTextFieldSexoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSexoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldSexoActionPerformed
+    }//GEN-LAST:event_jTFCurpActionPerformed
 
     private void jTextFieldEdadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldEdadActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldEdadActionPerformed
 
-    private void jTextFieldTrabajoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldTrabajoActionPerformed
+    private void jTFTraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFTraActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldTrabajoActionPerformed
+    }//GEN-LAST:event_jTFTraActionPerformed
 
-    private void jTextFieldReligionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldReligionActionPerformed
+    private void jTFRelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFRelActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldReligionActionPerformed
+    }//GEN-LAST:event_jTFRelActionPerformed
 
-    private void jTextFieldNumeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNumeroActionPerformed
+    private void jTFnumeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFnumeroActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldNumeroActionPerformed
+    }//GEN-LAST:event_jTFnumeroActionPerformed
 
-    private void jTextFieldCalleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCalleActionPerformed
+    private void jTFcalleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFcalleActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldCalleActionPerformed
+    }//GEN-LAST:event_jTFcalleActionPerformed
 
-    private void jTextFieldColoniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldColoniaActionPerformed
+    private void jTFcoloniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFcoloniaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldColoniaActionPerformed
+    }//GEN-LAST:event_jTFcoloniaActionPerformed
 
-    private void jTextFieldMunicipioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldMunicipioActionPerformed
+    private void jTFmunicipioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFmunicipioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldMunicipioActionPerformed
+    }//GEN-LAST:event_jTFmunicipioActionPerformed
 
-    private void jTextFielTelefonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFielTelefonoActionPerformed
+    private void jTFTelefonoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFTelefonoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFielTelefonoActionPerformed
+    }//GEN-LAST:event_jTFTelefonoActionPerformed
 
     private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField10ActionPerformed
 
-    private void jTextFieldFecNacActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldFecNacActionPerformed
+    private void jTFFNacActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFFNacActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldFecNacActionPerformed
+    }//GEN-LAST:event_jTFFNacActionPerformed
 
-    private void jTextCurp2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextCurp2ActionPerformed
+    private void jTCurp2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTCurp2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextCurp2ActionPerformed
+    }//GEN-LAST:event_jTCurp2ActionPerformed
 
-    private void jTextFieldFolioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldFolioActionPerformed
+    private void jTFfolioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFfolioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldFolioActionPerformed
+    }//GEN-LAST:event_jTFfolioActionPerformed
 
-    private void jTextFieldNomCompPacActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNomCompPacActionPerformed
+    private void jTFNomCPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNomCPActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldNomCompPacActionPerformed
+    }//GEN-LAST:event_jTFNomCPActionPerformed
 
-    private void jTextFieldTelefonoCelularDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldTelefonoCelularDocActionPerformed
+    private void jTFTelCelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFTelCelActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldTelefonoCelularDocActionPerformed
+    }//GEN-LAST:event_jTFTelCelActionPerformed
 
-    private void jButtonInsertImgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonInsertImgActionPerformed
+    private void jBInsImgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBInsImgActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonInsertImgActionPerformed
+    }//GEN-LAST:event_jBInsImgActionPerformed
 
-    private void jButtonInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonInicioActionPerformed
+    private void jBinicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBinicioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonInicioActionPerformed
+    }//GEN-LAST:event_jBinicioActionPerformed
 
-    private void jTextFieldCedulaProfesionalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCedulaProfesionalActionPerformed
+    private void jTFCProDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFCProDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldCedulaProfesionalActionPerformed
+    }//GEN-LAST:event_jTFCProDActionPerformed
 
-    private void jTextFieldDireccionDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldDireccionDocActionPerformed
+    private void jTFDirDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFDirDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldDireccionDocActionPerformed
+    }//GEN-LAST:event_jTFDirDActionPerformed
 
-    private void jTextFieldEdadDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldEdadDocActionPerformed
+    private void jBregresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBregresarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldEdadDocActionPerformed
+    }//GEN-LAST:event_jBregresarActionPerformed
 
-    private void jTextFieldSexoDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSexoDocActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldSexoDocActionPerformed
-
-    private void jButtonregresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonregresarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonregresarActionPerformed
-
-    private void jButtonConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonConsultarActionPerformed
+    private void jBConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBConsultarActionPerformed
         boolean flag;//aqui empleamos el uso de una variable boolean que evalua si la informacion se contiiene en la base de datos
         flag = false;//si flag = true quiere decir que si existen estos datos, en cambio si la flag = false esto nos indica que no hya registros con esos datos 
         activa(flag);
-        jTextFieldNomCompPac.setText(jTextFieldNombre.getText() + " " + jTextFieldAPaterno.getText() + " " + jTextFieldAMaterno.getText());
-        jTextCurp2.setText(jTextFieldCurp.getText());
+        jTFNomCP.setText(JTFNomP1.getText() + " " + jTFAPaterno.getText() + " " + jTFAMaterno.getText());
+        jTCurp2.setText(jTFCurp.getText());
 
 // TODO add your handling code here:
             /*if(busqueda encontrada){
@@ -1698,170 +1687,174 @@ public class Ventana_Paciente extends javax.swing.JFrame {
             }*/
             
             
-    }//GEN-LAST:event_jButtonConsultarActionPerformed
+    }//GEN-LAST:event_jBConsultarActionPerformed
 
-    private void jButtonGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonGuardarActionPerformed
+    private void jTFcorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFcorreoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonGuardarActionPerformed
+    }//GEN-LAST:event_jTFcorreoActionPerformed
 
-    private void jTextFielCorreoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFielCorreoActionPerformed
+    private void jTFNSSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNSSActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFielCorreoActionPerformed
+    }//GEN-LAST:event_jTFNSSActionPerformed
 
-    private void jTextFielNSSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFielNSSActionPerformed
+    private void jTFRFCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFRFCActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFielNSSActionPerformed
+    }//GEN-LAST:event_jTFRFCActionPerformed
 
-    private void jTextFielRFCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFielRFCActionPerformed
+    private void jTFCpostalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFCpostalActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFielRFCActionPerformed
+    }//GEN-LAST:event_jTFCpostalActionPerformed
 
-    private void jTextFieldNumero1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNumero1ActionPerformed
+    private void jTFCProPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFCProPActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldNumero1ActionPerformed
+    }//GEN-LAST:event_jTFCProPActionPerformed
 
-    private void jTextFieldCedulaProfesionalPaciActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCedulaProfesionalPaciActionPerformed
+    private void jTFNacActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNacActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldCedulaProfesionalPaciActionPerformed
+    }//GEN-LAST:event_jTFNacActionPerformed
 
-    private void jTextFieldNacionalidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNacionalidadActionPerformed
+    private void jTFTelConActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFTelConActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldNacionalidadActionPerformed
+    }//GEN-LAST:event_jTFTelConActionPerformed
 
-    private void jTextFieldTelefonoDocConsultorioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldTelefonoDocConsultorioActionPerformed
+    private void jTFRFCDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFRFCDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldTelefonoDocConsultorioActionPerformed
+    }//GEN-LAST:event_jTFRFCDActionPerformed
 
-    private void jTextFieldRFCDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldRFCDocActionPerformed
+    private void jTFNacDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFNacDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldRFCDocActionPerformed
+    }//GEN-LAST:event_jTFNacDActionPerformed
 
-    private void jTextFieldNacionalidadDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldNacionalidadDocActionPerformed
+    private void jTFCurpDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFCurpDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldNacionalidadDocActionPerformed
+    }//GEN-LAST:event_jTFCurpDActionPerformed
 
-    private void jTextFieldCurpDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCurpDocActionPerformed
+    private void jTFCorreoDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFCorreoDActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldCurpDocActionPerformed
+    }//GEN-LAST:event_jTFCorreoDActionPerformed
 
-    private void jTextFieldFecahaAtencionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldFecahaAtencionActionPerformed
+    private void JTFNomP1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_JTFNomP1KeyPressed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldFecahaAtencionActionPerformed
+        Validaciones.enter(this, evt, jTFAPaterno);
+    }//GEN-LAST:event_JTFNomP1KeyPressed
 
-    private void jTextFieldCorreoDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldCorreoDocActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldCorreoDocActionPerformed
-
-    private void jTextFieldNombreKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNombreKeyPressed
-        // TODO add your handling code here:
-        Validaciones.enter(this, evt, jTextFieldAPaterno);
-    }//GEN-LAST:event_jTextFieldNombreKeyPressed
-
-    private void jTextFieldNombreKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNombreKeyTyped
+    private void JTFNomP1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_JTFNomP1KeyTyped
         // TODO add your handling code here:
          Validaciones.validaAlfabeticos(evt);
-        if (jTextFieldNombre.getText().length() == 60)
+        if (JTFNomP1.getText().length() == 60)
         {
             evt.consume();
         }
-    }//GEN-LAST:event_jTextFieldNombreKeyTyped
+    }//GEN-LAST:event_JTFNomP1KeyTyped
 
-    private void jTextFieldAPaternoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAPaternoKeyPressed
+    private void jTFAPaternoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFAPaternoKeyPressed
         // TODO add your handling code here:
-        Validaciones.enter(this, evt, jTextFieldAMaterno);
-    }//GEN-LAST:event_jTextFieldAPaternoKeyPressed
+        Validaciones.enter(this, evt, jTFAMaterno);
+    }//GEN-LAST:event_jTFAPaternoKeyPressed
 
-    private void jTextFieldAPaternoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAPaternoKeyTyped
+    private void jTFAPaternoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFAPaternoKeyTyped
         // TODO add your handling code here:
                 Validaciones.validaAlfabeticos(evt);
-        if (jTextFieldAPaterno.getText().length() == 60)
+        if (jTFAPaterno.getText().length() == 60)
         {
             evt.consume();
         }
-    }//GEN-LAST:event_jTextFieldAPaternoKeyTyped
+    }//GEN-LAST:event_jTFAPaternoKeyTyped
 
-    private void jTextFieldAMaternoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAMaternoKeyPressed
+    private void jTFAMaternoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFAMaternoKeyPressed
         // TODO add your handling code here:
-        Validaciones.enter(this, evt, jTextFieldCurp);
-    }//GEN-LAST:event_jTextFieldAMaternoKeyPressed
+        Validaciones.enter(this, evt, jTFCurp);
+    }//GEN-LAST:event_jTFAMaternoKeyPressed
 
-    private void jTextFieldAMaternoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldAMaternoKeyTyped
+    private void jTFAMaternoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFAMaternoKeyTyped
         // TODO add your handling code here:
          Validaciones.validaAlfabeticos(evt);
-        if (jTextFieldAMaterno.getText().length() == 60)
+        if (jTFAMaterno.getText().length() == 60)
         {
             evt.consume();
         }
-    }//GEN-LAST:event_jTextFieldAMaternoKeyTyped
+    }//GEN-LAST:event_jTFAMaternoKeyTyped
 
-    private void jTextFieldCurpKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldCurpKeyPressed
+    private void jTFCurpKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFCurpKeyPressed
         // TODO add your handling code here:
-        Validaciones.enter(this, evt, jButtonConsultar);
-    }//GEN-LAST:event_jTextFieldCurpKeyPressed
+        Validaciones.enter(this, evt, jBConsultar);
+    }//GEN-LAST:event_jTFCurpKeyPressed
 
-    private void jTextFieldCurpKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldCurpKeyTyped
+    private void jTFCurpKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFCurpKeyTyped
         // TODO add your handling code here:
          Validaciones.validaAlfanumerico(evt);
-        if (jTextFieldCurp.getText().length() == 18)
+        if (jTFCurp.getText().length() == 18)
         {
             evt.consume();
         }
-    }//GEN-LAST:event_jTextFieldCurpKeyTyped
+    }//GEN-LAST:event_jTFCurpKeyTyped
 
-    private void jButtonConsultarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButtonConsultarKeyPressed
+    private void jBConsultarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jBConsultarKeyPressed
         
         if (evt.getKeyChar() == '\n')
         {
             //colocar actionperformed del boton o cualquier accion a realizar
         }
-    }//GEN-LAST:event_jButtonConsultarKeyPressed
+    }//GEN-LAST:event_jBConsultarKeyPressed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
         // TODO add your handling code here:
-        CtrlInterfaz.selecciona(jTextFieldNombre);
+        CtrlInterfaz.selecciona(JTFNomP1);
         con = ManipulaDBC.conectaDB();
-        evitarPegar(jTextFieldNombre, jTextFieldAMaterno, jTextFieldAPaterno, jTextFieldCurp,
-                jTextFieldFolio, jTextFieldFecNac, jTextFielTelefono,
-                jTextFieldMunicipio, jTextFieldColonia, jTextFieldCalle, jTextFieldNumero,
-                jTextFieldReligion, jTextFieldTrabajo, jTextFieldEdad, jTextFieldSexo, jTextFieldTipSangre);
-        jButtonInsertImg.setEnabled(false);
+        evitarPegar(JTFNomP1, jTFAMaterno, jTFAPaterno, jTFCurp,
+                jTFfolio, jTFFNac, jTFTelefono,
+                jTFmunicipio, jTFcolonia, jTFcalle, jTFnumero,
+                jTFRel, jTFTra, jTextFieldEdad, jCBsexo, jCBTipSan);
+        jBInsImg.setEnabled(false);
     }//GEN-LAST:event_formWindowOpened
 
     private void formWindowClosed(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosed
         ManipulaDBC.desconectaDB(con);
     }//GEN-LAST:event_formWindowClosed
 
-    private void jButtoncerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtoncerrarActionPerformed
+    private void jBcerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBcerrarActionPerformed
         this.dispose();
-    }//GEN-LAST:event_jButtoncerrarActionPerformed
+    }//GEN-LAST:event_jBcerrarActionPerformed
 
-    private void jTextFieldNomCompPacKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNomCompPacKeyPressed
-        Validaciones.enter(this, evt, jTextFieldFolio);
-    }//GEN-LAST:event_jTextFieldNomCompPacKeyPressed
+    private void jTFNomCPKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFNomCPKeyPressed
+        Validaciones.enter(this, evt, jTFfolio);
+    }//GEN-LAST:event_jTFNomCPKeyPressed
 
-    private void jTextFieldNomCompPacKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldNomCompPacKeyTyped
+    private void jTFNomCPKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFNomCPKeyTyped
         Validaciones.validaAlfabeticos(evt);
-    }//GEN-LAST:event_jTextFieldNomCompPacKeyTyped
+    }//GEN-LAST:event_jTFNomCPKeyTyped
 
-    private void jTextFieldFolioKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldFolioKeyTyped
+    private void jTFfolioKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFfolioKeyTyped
         Validaciones.validaEntero(evt);
-    }//GEN-LAST:event_jTextFieldFolioKeyTyped
+    }//GEN-LAST:event_jTFfolioKeyTyped
 
-    private void jTextFieldFolioKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextFieldFolioKeyPressed
-        Validaciones.enter(this, evt, jTextFieldFecNac);
-    }//GEN-LAST:event_jTextFieldFolioKeyPressed
+    private void jTFfolioKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTFfolioKeyPressed
+        Validaciones.enter(this, evt, jTFFNac);
+    }//GEN-LAST:event_jTFfolioKeyPressed
 
-    private void jTextCurp2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextCurp2KeyTyped
+    private void jTCurp2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTCurp2KeyTyped
         Validaciones.validaAlfanumerico(evt);
-    }//GEN-LAST:event_jTextCurp2KeyTyped
+    }//GEN-LAST:event_jTCurp2KeyTyped
 
-    private void jTextCurp2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextCurp2KeyPressed
-        Validaciones.enter(this, evt, jTextFieldFecNac);
-    }//GEN-LAST:event_jTextCurp2KeyPressed
+    private void jTCurp2KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTCurp2KeyPressed
+        Validaciones.enter(this, evt, jTFFNac);
+    }//GEN-LAST:event_jTCurp2KeyPressed
+
+    private void jTFEdadDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFEdadDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFEdadDActionPerformed
+
+    private void jTFDrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFDrActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFDrActionPerformed
+
+    private void jTFSexoDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTFSexoDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTFSexoDActionPerformed
 
     private void jTextFieldFecNacKeyTyped(java.awt.event.KeyEvent evt)                                          
     {                                              
-        String fecha = jTextFieldFecNac.getText();
+        String fecha = jTFFNac.getText();
         boolean res = false;
         res = validaFechaNac(fecha);
         if (res == true)
@@ -1875,13 +1868,13 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldFecNacKeyPressed(java.awt.event.KeyEvent evt)                                            
     {                                                
-        Validaciones.enter(this, evt, jTextFielTelefono);
+        Validaciones.enter(this, evt, jTFTelefono);
     }                                           
 
     private void jTextFielTelefonoKeyTyped(java.awt.event.KeyEvent evt)                                           
     {                                               
         int nc = 10;
-        if (jTextFielTelefono.getText().length() >= nc)
+        if (jTFTelefono.getText().length() >= nc)
         {
             evt.consume();
             //Mensaje.error(this, "solo se admiten 10 caracteres");
@@ -1896,7 +1889,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFielTelefonoKeyPressed(java.awt.event.KeyEvent evt)                                             
     {                                                 
-        Validaciones.enter(this, evt, jTextFieldMunicipio);
+        Validaciones.enter(this, evt, jTFmunicipio);
     }                                            
 
     private void jTextFieldMunicipioKeyTyped(java.awt.event.KeyEvent evt)                                             
@@ -1906,7 +1899,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldMunicipioKeyPressed(java.awt.event.KeyEvent evt)                                               
     {                                                   
-        Validaciones.enter(this, evt, jTextFieldColonia);
+        Validaciones.enter(this, evt, jTFcolonia);
     }                                              
 
     private void jTextFieldColoniaKeyTyped(java.awt.event.KeyEvent evt)                                           
@@ -1916,7 +1909,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldColoniaKeyPressed(java.awt.event.KeyEvent evt)                                             
     {                                                 
-        Validaciones.enter(this, evt, jTextFieldCalle);
+        Validaciones.enter(this, evt, jTFcalle);
     }                                            
 
     private void jTextFieldCalleKeyTyped(java.awt.event.KeyEvent evt)                                         
@@ -1926,7 +1919,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldCalleKeyPressed(java.awt.event.KeyEvent evt)                                           
     {                                               
-        Validaciones.enter(this, evt, jTextFieldNumero);
+        Validaciones.enter(this, evt, jTFnumero);
     }                                          
 
     private void jTextFieldNumeroKeyTyped(java.awt.event.KeyEvent evt)                                          
@@ -1936,7 +1929,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldNumeroKeyPressed(java.awt.event.KeyEvent evt)                                            
     {                                                
-        Validaciones.enter(this, evt, jTextFieldReligion);
+        Validaciones.enter(this, evt, jTFRel);
     }                                           
 
     private void jTextFieldReligionKeyTyped(java.awt.event.KeyEvent evt)                                            
@@ -1946,7 +1939,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldReligionKeyPressed(java.awt.event.KeyEvent evt)                                              
     {                                                  
-        Validaciones.enter(this, evt, jTextFieldTrabajo);
+        Validaciones.enter(this, evt, jTFTra);
     }                                             
 
     private void jTextFieldTrabajoKeyTyped(java.awt.event.KeyEvent evt)                                           
@@ -1970,7 +1963,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldEdadKeyPressed(java.awt.event.KeyEvent evt)                                          
     {                                              
-        Validaciones.enter(this, evt, jTextFieldSexo);
+        Validaciones.enter(this, evt, jCBsexo);
     }                                         
 
     private void jTextFieldSexoKeyTyped(java.awt.event.KeyEvent evt)                                        
@@ -1980,7 +1973,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 
     private void jTextFieldSexoKeyPressed(java.awt.event.KeyEvent evt)                                          
     {                                              
-        Validaciones.enter(this, evt, jTextFieldTipSangre);
+        Validaciones.enter(this, evt, jCBTipSan);
     }                                         
 
     private void jTextFieldTipSangreKeyTyped(java.awt.event.KeyEvent evt)                                             
@@ -2007,20 +2000,20 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         if (flag)
         {
             System.out.println("datos correctos");
-            CtrlInterfaz.habilita(false, jTextFieldNomCompPac, jTextFieldFolio, jTextCurp2, jTextFieldFecNac, jTextFielTelefono,
-                    jTextFieldFolio, jTextFieldFecNac, jTextFielTelefono,
-                    jTextFieldMunicipio, jTextFieldColonia, jTextFieldCalle, jTextFieldNumero,
-                    jTextFieldReligion, jTextFieldTrabajo, jTextFieldEdad, jTextFieldSexo, jTextFieldTipSangre);
+            CtrlInterfaz.habilita(false, jTFNomCP, jTFfolio, jTCurp2, jTFFNac, jTFTelefono,
+                    jTFfolio, jTFFNac, jTFTelefono,
+                    jTFmunicipio, jTFcolonia, jTFcalle, jTFnumero,
+                    jTFRel, jTFTra, jTextFieldEdad, jCBsexo, jCBTipSan);
         } else if (flag == false)
         {
             Mensaje.error(this, "No se encontraron registros con estos datos debe agregar un registro");
             System.out.println("datos no encontrados");
-            CtrlInterfaz.selecciona(jTextFieldFolio);
-            CtrlInterfaz.habilita(true, jTextFieldFolio);
-            CtrlInterfaz.habilita(false, jTextFieldNomCompPac, jTextCurp2, jTextFieldFecNac, jTextFielTelefono,
-                    jTextFieldFecNac, jTextFielTelefono,
-                    jTextFieldMunicipio, jTextFieldColonia, jTextFieldCalle, jTextFieldNumero,
-                    jTextFieldReligion, jTextFieldTrabajo, jTextFieldEdad, jTextFieldSexo, jTextFieldTipSangre);
+            CtrlInterfaz.selecciona(jTFfolio);
+            CtrlInterfaz.habilita(true, jTFfolio);
+            CtrlInterfaz.habilita(false, jTFNomCP, jTCurp2, jTFFNac, jTFTelefono,
+                    jTFFNac, jTFTelefono,
+                    jTFmunicipio, jTFcolonia, jTFcalle, jTFnumero,
+                    jTFRel, jTFTra, jTextFieldEdad, jCBsexo, jCBTipSan);
         }
         return flag;
     }
@@ -2081,86 +2074,89 @@ public class Ventana_Paciente extends javax.swing.JFrame {
 //    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButtonConsultar;
-    private javax.swing.JButton jButtonEsconder;
-    private javax.swing.JButton jButtonGuardar;
-    private javax.swing.JButton jButtonInicio;
-    private javax.swing.JButton jButtonInsertImg;
-    private javax.swing.JButton jButtonModificar;
-    private javax.swing.JButton jButtoncerrar;
-    private javax.swing.JButton jButtonminimizar;
-    private javax.swing.JButton jButtonregresar;
-    private javax.swing.JComboBox<String> jComboBoxDoctores;
-    private javax.swing.JLabel jLabelAMaterno;
-    private javax.swing.JLabel jLabelAPaterno;
-    private javax.swing.JLabel jLabelCalle;
-    private javax.swing.JLabel jLabelCedulaProfesional;
-    private javax.swing.JLabel jLabelColonia;
-    private javax.swing.JLabel jLabelCorreo;
-    private javax.swing.JLabel jLabelCorreoDoc;
-    private javax.swing.JLabel jLabelCpostal;
-    private javax.swing.JLabel jLabelCurp;
-    private javax.swing.JLabel jLabelCurp2;
-    private javax.swing.JLabel jLabelCurpDoc;
-    private javax.swing.JLabel jLabelDireccionDoc;
-    private javax.swing.JLabel jLabelEdad;
-    private javax.swing.JLabel jLabelEdadDoc;
-    private javax.swing.JLabel jLabelFecNac;
-    private javax.swing.JLabel jLabelFecahaAtencion;
-    private javax.swing.JLabel jLabelFolio;
-    private javax.swing.JLabel jLabelFotoPefil;
-    private javax.swing.JLabel jLabelMunicipio;
-    private javax.swing.JLabel jLabelNSS;
-    private javax.swing.JLabel jLabelNacionalidad;
-    private javax.swing.JLabel jLabelNacionalidadDoc;
-    private javax.swing.JLabel jLabelNomCompPac;
-    private javax.swing.JLabel jLabelNombre;
-    private javax.swing.JLabel jLabelNumero;
-    private javax.swing.JLabel jLabelRFC;
-    private javax.swing.JLabel jLabelRFCDoc;
-    private javax.swing.JLabel jLabelReligion;
-    private javax.swing.JLabel jLabelSexo;
-    private javax.swing.JLabel jLabelSexoDoc;
-    private javax.swing.JLabel jLabelTelefono1;
-    private javax.swing.JLabel jLabelTelefonoCelularDoc;
-    private javax.swing.JLabel jLabelTelefonoDocConsultorio;
-    private javax.swing.JLabel jLabelTipCedulaProfesionalPaci;
-    private javax.swing.JLabel jLabelTipSangre;
-    private javax.swing.JLabel jLabelTitulo1;
-    private javax.swing.JLabel jLabelTitulo10;
-    private javax.swing.JLabel jLabelTitulo11;
-    private javax.swing.JLabel jLabelTitulo12;
-    private javax.swing.JLabel jLabelTitulo2;
-    private javax.swing.JLabel jLabelTitulo3;
-    private javax.swing.JLabel jLabelTitulo4;
-    private javax.swing.JLabel jLabelTitulo5;
-    private javax.swing.JLabel jLabelTitulo6;
-    private javax.swing.JLabel jLabelTitulo7;
-    private javax.swing.JLabel jLabelTitulo8;
-    private javax.swing.JLabel jLabelTitulo9;
-    private javax.swing.JLabel jLabelTrabajo;
+    private javax.swing.JLabel JLNomP1;
+    private javax.swing.JTextField JTFNomP1;
+    private javax.swing.JButton jBConsultar;
+    private javax.swing.JButton jBEsconder;
+    private javax.swing.JButton jBGuardar;
+    private javax.swing.JButton jBInsImg;
+    private javax.swing.JButton jBModificar;
+    private javax.swing.JButton jBcerrar;
+    private javax.swing.JButton jBinicio;
+    private javax.swing.JButton jBminimizar;
+    private javax.swing.JButton jBregresar;
+    private javax.swing.JComboBox<String> jCBTipSan;
+    private javax.swing.JComboBox<String> jCBsexo;
+    private javax.swing.JLabel jLAMaterno;
+    private javax.swing.JLabel jLAPaterno;
+    private javax.swing.JLabel jLCProD;
+    private javax.swing.JLabel jLCProP;
+    private javax.swing.JLabel jLCpostal;
+    private javax.swing.JLabel jLCurp;
+    private javax.swing.JLabel jLCurp2;
+    private javax.swing.JLabel jLCurpD;
+    private javax.swing.JLabel jLDirD;
+    private javax.swing.JLabel jLDr;
+    private javax.swing.JLabel jLEdadD;
+    private javax.swing.JLabel jLFNac;
+    private javax.swing.JLabel jLFPefil;
+    private javax.swing.JLabel jLNSS;
+    private javax.swing.JLabel jLNac;
+    private javax.swing.JLabel jLNacD;
+    private javax.swing.JLabel jLNomCP;
+    private javax.swing.JLabel jLRFC;
+    private javax.swing.JLabel jLRFCD;
+    private javax.swing.JLabel jLRel;
+    private javax.swing.JLabel jLSexoD;
+    private javax.swing.JLabel jLTelCel;
+    private javax.swing.JLabel jLTelCon;
+    private javax.swing.JLabel jLTelefono;
+    private javax.swing.JLabel jLTipSan;
+    private javax.swing.JLabel jLTitulo1;
+    private javax.swing.JLabel jLTitulo10;
+    private javax.swing.JLabel jLTitulo11;
+    private javax.swing.JLabel jLTitulo12;
+    private javax.swing.JLabel jLTitulo2;
+    private javax.swing.JLabel jLTitulo3;
+    private javax.swing.JLabel jLTitulo4;
+    private javax.swing.JLabel jLTitulo5;
+    private javax.swing.JLabel jLTitulo6;
+    private javax.swing.JLabel jLTitulo7;
+    private javax.swing.JLabel jLTitulo8;
+    private javax.swing.JLabel jLTitulo9;
+    private javax.swing.JLabel jLTra;
+    private javax.swing.JLabel jLcalle;
+    private javax.swing.JLabel jLcolonia;
+    private javax.swing.JLabel jLcorreo;
+    private javax.swing.JLabel jLedad;
+    private javax.swing.JLabel jLfolio;
+    private javax.swing.JLabel jLlCorreoD;
+    private javax.swing.JLabel jLmunicipio;
+    private javax.swing.JLabel jLnumero;
+    private javax.swing.JLabel jLsexo;
+    private javax.swing.JPanel jPDiseño1;
+    private javax.swing.JPanel jPDiseño12;
+    private javax.swing.JPanel jPDiseño2;
+    private javax.swing.JPanel jPDiseño3;
+    private javax.swing.JPanel jPDiseño4;
+    private javax.swing.JPanel jPDiseño5;
+    private javax.swing.JPanel jPDiseño6;
+    private javax.swing.JPanel jPDiseño8;
+    private javax.swing.JPanel jPDiseño9;
+    private javax.swing.JPanel jPEncabezado;
+    private javax.swing.JPanel jPHistorial;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
-    private javax.swing.JPanel jPanelDiseño1;
     private javax.swing.JPanel jPanelDiseño10;
     private javax.swing.JPanel jPanelDiseño11;
-    private javax.swing.JPanel jPanelDiseño12;
     private javax.swing.JPanel jPanelDiseño13;
-    private javax.swing.JPanel jPanelDiseño2;
-    private javax.swing.JPanel jPanelDiseño3;
-    private javax.swing.JPanel jPanelDiseño4;
-    private javax.swing.JPanel jPanelDiseño5;
-    private javax.swing.JPanel jPanelDiseño6;
     private javax.swing.JPanel jPanelDiseño7;
-    private javax.swing.JPanel jPanelDiseño8;
-    private javax.swing.JPanel jPanelDiseño9;
-    private javax.swing.JPanel jPanelEncabezado;
     private javax.swing.JPanel jPanelGeneral;
-    private javax.swing.JPanel jPanelHistorial;
-    private javax.swing.JPanel jPanelPerfil;
+    private javax.swing.JPanel jPperfil;
     private javax.swing.JScrollBar jScrollBarHistorial;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -2179,8 +2175,6 @@ public class Ventana_Paciente extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator15;
     private javax.swing.JSeparator jSeparator16;
     private javax.swing.JSeparator jSeparator17;
-    private javax.swing.JSeparator jSeparator18;
-    private javax.swing.JSeparator jSeparator19;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator21;
     private javax.swing.JSeparator jSeparator22;
@@ -2198,52 +2192,50 @@ public class Ventana_Paciente extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator33;
     private javax.swing.JSeparator jSeparator34;
     private javax.swing.JSeparator jSeparator35;
-    private javax.swing.JSeparator jSeparator36;
     private javax.swing.JSeparator jSeparator37;
+    private javax.swing.JSeparator jSeparator38;
     private javax.swing.JSeparator jSeparator4;
     private javax.swing.JSeparator jSeparator6;
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
-    private javax.swing.JTextArea jTextAreaAntFam;
-    private javax.swing.JTextArea jTextAreaAntPat;
-    private javax.swing.JTextArea jTextAreaAntPer;
-    private javax.swing.JTextArea jTextAreaAntQuir;
-    private javax.swing.JTextField jTextCurp2;
-    private javax.swing.JTextField jTextFielCorreo;
-    private javax.swing.JTextField jTextFielNSS;
-    private javax.swing.JTextField jTextFielRFC;
-    private javax.swing.JTextField jTextFielTelefono;
+    private javax.swing.JTextArea jTAAntFam;
+    private javax.swing.JTextArea jTAAntPat;
+    private javax.swing.JTextArea jTAAntPer;
+    private javax.swing.JTextArea jTAAntQuir;
+    private javax.swing.JTextField jTCurp2;
+    private javax.swing.JTable jTDoctores;
+    private javax.swing.JTextField jTFAMaterno;
+    private javax.swing.JTextField jTFAPaterno;
+    private javax.swing.JTextField jTFCProD;
+    private javax.swing.JTextField jTFCProP;
+    private javax.swing.JTextField jTFCorreoD;
+    private javax.swing.JTextField jTFCpostal;
+    private javax.swing.JTextField jTFCurp;
+    private javax.swing.JTextField jTFCurpD;
+    private javax.swing.JTextField jTFDirD;
+    private javax.swing.JTextField jTFDr;
+    private javax.swing.JTextField jTFEdadD;
+    private javax.swing.JTextField jTFFNac;
+    private javax.swing.JTextField jTFNSS;
+    private javax.swing.JTextField jTFNac;
+    private javax.swing.JTextField jTFNacD;
+    private javax.swing.JTextField jTFNomCP;
+    private javax.swing.JTextField jTFRFC;
+    private javax.swing.JTextField jTFRFCD;
+    private javax.swing.JTextField jTFRel;
+    private javax.swing.JTextField jTFSexoD;
+    private javax.swing.JTextField jTFTelCel;
+    private javax.swing.JTextField jTFTelCon;
+    private javax.swing.JTextField jTFTelefono;
+    private javax.swing.JTextField jTFTra;
+    private javax.swing.JTextField jTFcalle;
+    private javax.swing.JTextField jTFcolonia;
+    private javax.swing.JTextField jTFcorreo;
+    private javax.swing.JTextField jTFfolio;
+    private javax.swing.JTextField jTFmunicipio;
+    private javax.swing.JTextField jTFnumero;
     private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextFieldAMaterno;
-    private javax.swing.JTextField jTextFieldAPaterno;
-    private javax.swing.JTextField jTextFieldCalle;
-    private javax.swing.JTextField jTextFieldCedulaProfesional;
-    private javax.swing.JTextField jTextFieldCedulaProfesionalPaci;
-    private javax.swing.JTextField jTextFieldColonia;
-    private javax.swing.JTextField jTextFieldCorreoDoc;
-    private javax.swing.JTextField jTextFieldCurp;
-    private javax.swing.JTextField jTextFieldCurpDoc;
-    private javax.swing.JTextField jTextFieldDireccionDoc;
     private javax.swing.JTextField jTextFieldEdad;
-    private javax.swing.JTextField jTextFieldEdadDoc;
-    private javax.swing.JTextField jTextFieldFecNac;
-    private javax.swing.JTextField jTextFieldFecahaAtencion;
-    private javax.swing.JTextField jTextFieldFolio;
-    private javax.swing.JTextField jTextFieldMunicipio;
-    private javax.swing.JTextField jTextFieldNacionalidad;
-    private javax.swing.JTextField jTextFieldNacionalidadDoc;
-    private javax.swing.JTextField jTextFieldNomCompPac;
-    private javax.swing.JTextField jTextFieldNombre;
-    private javax.swing.JTextField jTextFieldNumero;
-    private javax.swing.JTextField jTextFieldNumero1;
-    private javax.swing.JTextField jTextFieldRFCDoc;
-    private javax.swing.JTextField jTextFieldReligion;
-    private javax.swing.JTextField jTextFieldSexo;
-    private javax.swing.JTextField jTextFieldSexoDoc;
-    private javax.swing.JTextField jTextFieldTelefonoCelularDoc;
-    private javax.swing.JTextField jTextFieldTelefonoDocConsultorio;
-    private javax.swing.JTextField jTextFieldTipSangre;
-    private javax.swing.JTextField jTextFieldTrabajo;
     // End of variables declaration//GEN-END:variables
 }
