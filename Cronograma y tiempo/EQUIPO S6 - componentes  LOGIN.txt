@@ -1,0 +1,50 @@
+﻿Lider:
+- CARLOS J. LOPEZ PALMA - FB:Charly Lpalma / Cel:7227844903 / discord:CharlyJLP #2030
+- EDWIN MISAEL VAZQUEZ RIVERA - FB:Edwin Rivera / No hay, no existe
+--------------------------------------
+Equipo Bombariana
+-Daniel Jimenez Diaz/7221147512			componente 1 y 5 
+-Kevin Stuart Somera Rodriguez			componente 10
+--------------------------------------
+Equipo REX 
+-Ilse Vanessa Gutierrez Meneses / 7228894936	componente 13
+-Rocio Venegas Salas / 7226296511		componente 14
+--------------------------------------
+- DANIEL CORTES					componente 2
+- FER						componente 3
+------------------------------
+Equipo M&M
+-Hugo Daniel Rojas Fuestes			componente 11
+-Alan Alexis Velazquez Romero			componente 12
+-----------------------
+Equipo Sinskins
+- Jesus Alejandro Malvaes Vega			componente 4 y 7	
+- Carlos Martin Garcia Sanchez			componente 6 y 9
+- José Guadalupe Ibarra Rodríguez		componente 8
+------------------------------
+
+			Características
+- Para ver el componente que te corresponde, ir a la carpeta:
+"\PP\Interfaces\01 Interfaz LOGIN\Documentacion"
+y revisar el archivo:
+ "Descripción de inicio de sesión( Lista de Componentes) V3.docx" (en la pagina 2)
+
+- Hacer su documento txt con llamado: <nombre del responsable> <componente>-LOGIN V<#> en la larpeta "Interfaces\01 Interfaz LOGIN\Documentacion\Analisis de componentes LOGIN V3"
+- Describir las características del componente (tipo de dato que almacena, tamaño, dimenciones, valores permitidos, funcion que realiza, tamaño de fuente, etc.)
+- Especificar la versión del componente (V3 actualmente)
+- Poner la fecha de entrega
+
+- Para ver el componente que te corresponde, ir a la carpeta:
+"\PP\Interfaces\01 Interfaz LOGIN\Documentacion"
+y revisar el archivo:
+ "Descripción de inicio de sesión( Lista de Componentes) V3.docx" (en la pagina 2)
+- Guardar su documento en la misma carpeta.
+
+En caso de existir alguna duda con tu componente, se recomienda revisar los archivos:
+
+- "PP\Interfaces\01 Interfaz LOGIN\Bocetos" y revisar la imagen "B_Login-v3"
+- "\PP\Interfaces" y revisar el documento "Especificaciones de Diseño General" para conocer las fuentes y colores utilizados
+- comunicarse con el equipo que tiene el componente relacionado con el tuyo o con algún líder a traves de fb, watsapp o discord.
+
+
+Fecha de entrega: martez 17 de septiembre 2019

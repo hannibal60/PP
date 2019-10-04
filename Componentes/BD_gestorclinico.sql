@@ -1,0 +1,167 @@
+DROP DATABASE gestorclinico;
+CREATE DATABASE gestorclinico;
+USE gestorclinico;
+
+CREATE TABLE centros_medicos(
+	id_centromedico INT AUTO_INCREMENT,
+	nombre_centromedico VARCHAR(100) NOT NULL,
+	especialidad_centromedico VARCHAR(100) DEFAULT 'SE',
+	direccion VARCHAR(100) NOT NULL,
+	telefono VARCHAR(15) NOT NULL,
+	PRIMARY KEY(id_centromedico)
+);
+
+#Todos los centros medicos tienen:
+
+CREATE TABLE personas(
+	id_persona INT AUTO_INCREMENT,
+	nombre VARCHAR(30) NOT NULL,
+	apellido_paterno VARCHAR(30) NOT NULL,
+	apellido_materno VARCHAR(30) NOT NULL,
+	f_nacimiento DATE NOT NULL,
+	sexo CHAR(1) NOT NULL DEFAULT 'I', #H=hombre, M=mujer, I=indefinido
+	curp VARCHAR(18) NOT NULL UNIQUE,
+	tipo_persona CHAR(1) NOT NULL, #1=admin de sistema, 2=medico, 3=paciente, 4=medico y paciente
+	PRIMARY KEY(id_persona)
+);
+
+#todas las personas son usuarios
+CREATE TABLE usuarios(
+	id_usuario INT AUTO_INCREMENT,
+	id_persona INT NOT NULL UNIQUE,
+	correo VARCHAR(100) NOT NULL UNIQUE,
+	password VARCHAR(300) NOT NULL,
+	PRIMARY KEY(id_usuario),
+	FOREIGN KEY (id_persona) REFERENCES personas (id_persona)
+);
+
+#las personas pueden ser medicos
+CREATE TABLE medicos(
+	id_medico INT AUTO_INCREMENT,
+	id_persona INT NOT NULL UNIQUE,
+	rfc VARCHAR(13) NOT NULL UNIQUE,
+	cedula_profesional VARCHAR(50) NOT NULL UNIQUE,
+	especialidad VARCHAR(250) NOT NULL DEFAULT 'Medico general',
+	PRIMARY KEY(id_medico),
+	FOREIGN KEY(id_persona) REFERENCES personas (id_persona)
+);
+
+#los medicos pueden dar consultas en varios centrs medicos
+CREATE TABLE cm_medicos(
+	id_cm_medico INT AUTO_INCREMENT,
+	id_centromedico INT NOT NULL,
+	id_medico INT NOT NULL,
+	horario VARCHAR(200) NOT NULL,
+	PRIMARY KEY(id_cm_medico),
+	FOREIGN KEY(id_centromedico) REFERENCES centros_medicos (id_centromedico),
+	FOREIGN KEY(id_medico) REFERENCES medicos (id_medico)
+);
+
+#las personas pueden ser pacientes
+CREATE TABLE pacientes(
+	id_paciente INT AUTO_INCREMENT,
+	id_persona INT NOT NULL UNIQUE,
+	id_centromedico INT NOT NULL,
+	nss VARCHAR(20) NOT NULL UNIQUE,
+	grupo_sanguineo VARCHAR(20) NOT NULL,
+	enfermedades VARCHAR(200) DEFAULT NULL, #o padecimientos
+	PRIMARY KEY(id_paciente),
+	FOREIGN KEY(id_persona) REFERENCES personas (id_persona),
+	FOREIGN KEY(id_centromedico) REFERENCES centros_medicos (id_centromedico)
+);
+
+#los pacientes pueden agendar citas con medicos
+CREATE TABLE citas(
+	id_cita INT AUTO_INCREMENT,
+	id_paciente INT NOT NULL,
+	id_medico INT NOT NULL,
+	asunto VARCHAR(100) NOT NULL,
+	fecha_cita DATE NOT NULL,
+	hora_cita TIME NOT NULL,
+	estado_cita CHAR(1) DEFAULT '0', #0=cita, 1=cita realizada
+	cantidad_pagar FLOAT DEFAULT 0,#Totfal a pagar
+	PRIMARY KEY(id_cita),
+	FOREIGN KEY(id_paciente) REFERENCES pacientes (id_paciente),
+	FOREIGN KEY(id_medico) REFERENCES medicos (id_medico)
+);
+
+#Las citas pueden generar recetas
+CREATE TABLE recetas(
+	id_receta INT AUTO_INCREMENT,
+	id_cita INT NOT NULL,
+	fecha_receta DATE,
+	observaciones VARCHAR(500) NOT NULL,
+	PRIMARY KEY(id_receta),
+	FOREIGN KEY(id_cita) REFERENCES citas (id_cita)
+);
+
+#Las recetas pueden requerir de medicamentos, por lo tanto esto quiere decir
+# que los centros medicos tienen almacenes
+
+CREATE TABLE almacenes(
+	id_almcen INT AUTO_INCREMENT,
+	id_centromedico INT NOT NULL,
+	nombre_almacen VARCHAR(100) NOT NULL,
+	PRIMARY KEY(id_almcen),
+	FOREIGN KEY(id_centromedico) REFERENCES centros_medicos (id_centromedico)
+);
+
+#los almacenes a su ves tienen productos
+CREATE TABLE medicamentos(
+	id_medicamento INT AUTO_INCREMENT,
+	id_almcen INT NOT NULL,
+	nombre_producto VARCHAR(100) NOT NULL,
+	descripcion VARCHAR(250) DEFAULT 'SD',
+	stok INT NOT NULL DEFAULT 0,
+	precio_unitario FLOAT NOT NULL,
+	PRIMARY KEY(id_medicamento),
+	FOREIGN KEY(id_almcen) REFERENCES almacenes (id_almcen)
+);
+
+#retomando las recetas, estas pueden requerir de medicamentos
+CREATE TABLE receta_medicamentos(
+	id_receta_medicamento INT AUTO_INCREMENT,
+	id_receta INT NOT NULL,
+	id_medicamento INT NOT NULL,
+	cantidad_medicamento INT NOT NULL,
+	PRIMARY KEY(id_receta_medicamento),
+	FOREIGN KEY(id_receta) REFERENCES recetas(id_receta),
+	FOREIGN KEY(id_medicamento) REFERENCES medicamentos (id_medicamento)
+);
+
+#los almacenes pueden realizar pedidos
+CREATE TABLE pedidos(
+	id_pedido INT AUTO_INCREMENT,
+	id_almcen INT NOT NULL,
+	id_usuario INT NOT NULL,
+	fecha_pedido DATE NOT NULL,
+	estado_pedido CHAR(1) NOT NULL DEFAULT '0',#0=pedido,#2=recibido
+	fecha_recibido DATE DEFAULT NULL,
+	PRIMARY KEY(id_pedido),
+	FOREIGN KEY(id_almcen) REFERENCES almacenes (id_almcen),
+	FOREIGN KEY(id_usuario) REFERENCES usuarios (id_usuario)
+);
+
+#los pedidos pueden ser de diferentes proveedores
+CREATE TABLE proveedores(
+	id_proveedor INT AUTO_INCREMENT,
+	nombre_proveedor VARCHAR(100) NOT NULL,
+	direccion VARCHAR(250),
+	correo VARCHAR(100) NOT NULL UNIQUE,
+	PRIMARY KEY(id_proveedor)
+);
+
+#Para registrar los medicamentos del pedido
+CREATE TABLE pedido_medicamento_proveedor(
+	id_ppp INT AUTO_INCREMENT,
+	id_pedido INT NOT NULL,
+	id_proveedor INT NOT NULL,
+	id_medicamento INT NOT NULL,
+	cantidad_solicitada INT NOT NULL,
+	precio_unitario FLOAT NOT NULL,
+	PRIMARY KEY(id_ppp),
+	FOREIGN KEY(id_pedido) REFERENCES pedidos (id_pedido),
+	FOREIGN KEY(id_proveedor) REFERENCES proveedores (id_proveedor),
+	FOREIGN KEY(id_medicamento) REFERENCES medicamentos (id_medicamento)
+);
+

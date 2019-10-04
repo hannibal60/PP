@@ -1,0 +1,11 @@
+Componente 14 JPasswordField1
+
+Tipo de dato que almacena: String | Varchar 
+Tamaño: 15
+Dimensiones: [2, 16]
+Valores permitidos: Alfanúmericos
+Funcion: Recibe el nombre del usuario que inicia sesión
+Tamaño de fuente: Tahoma 11 Plain
+
+--------------------
+Entrega: Martes 17 de Septiempre 2019

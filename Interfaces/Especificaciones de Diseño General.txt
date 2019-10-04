@@ -8,3 +8,5 @@ Colores:
 	[181,77,180] rosa Titulos
 	[96,  83, 150]morado Texto
 	[232, 201, 232] Lila 
+diemensiones ventana paciente: [1310, 790] 
+NOTA: Se recomienda usar esas diemensiones para las demas ventanas, en login puede variar
