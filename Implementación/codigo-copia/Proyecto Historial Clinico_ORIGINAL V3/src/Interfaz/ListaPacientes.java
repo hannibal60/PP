@@ -160,10 +160,6 @@ public class ListaPacientes extends javax.swing.JFrame {
     private void jButtonregresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonregresarActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonregresarActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

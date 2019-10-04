@@ -511,7 +511,7 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         jPEncabezadoLayout.setHorizontalGroup(
             jPEncabezadoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPEncabezadoLayout.createSequentialGroup()
-                .addComponent(jBEsconder, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBEsconder, javax.swing.GroupLayout.DEFAULT_SIZE, 65, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 853, Short.MAX_VALUE)
                 .addComponent(jPDiseño3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -1675,13 +1675,13 @@ public class Ventana_Paciente extends javax.swing.JFrame {
         activa(flag);
         jTFNomCP.setText(JTFNomP1.getText() + " " + jTFAPaterno.getText() + " " + jTFAMaterno.getText());
         jTCurp2.setText(jTFCurp.getText());
-
+        ListaPacientes ir= new ListaPacientes();
+        ir.setVisible(true);
+        ir.setLocationRelativeTo(null);
+        this.dispose();
 // TODO add your handling code here:
             /*if(busqueda encontrada){
-                    ListaPacientes ir= new ListaPacientes();
-                    ir.setVisible(true);
-                    ir.setLocationRelativeTo(null);
-                    this.dispose();
+                    
             //}else if(busqueda no encontrada){
                     JOptionPane.showMessageDialog(this,"      \tPaciente No Econtrado\n"+ "      \t¿Deseas agregarlo?", "Advertencia", JOptionPane.WARNING_MESSAGE);
             }*/
