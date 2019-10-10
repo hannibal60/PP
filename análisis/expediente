@@ -1,0 +1,47 @@
+expediente
+solicitud de laboratorio
+generador de recetas
+resumen clinico
+existencia real en farmacia
+
+3 niveles
+usado desdel 2 expediente
+hoja frontal: datos paciente, contacto
+diagnosticos: inpertencion, enfermedades, alergias
+historia clinica-- antecentes familiares, personales, no patalogicos
+exploraccion fisica
+laboratorios y estudios
+consulta privada
+manejo de medicamentos
+
+
+reportes de expediente y titulos de laboratorio
+portafolio
+firma
+
+para poder registrar un medico
+acta
+curp
+cedula
+rfc
+generan lector biometrico (huella)
+codigo de acceso (barra o QR)
+credencial
+generacion de llavez
+
+
+depende de giro pago
+publico: seguro, ine, respionsable, domicilio
+privado:
+
+
+inventario
+categoria: cantidad y mlg (tipo, tableta, inyectable, intrmuscular) en base al centro medico, subretal y renal
+
+examen de laboratorio (solicitud)
+tipo de laboratorio existente-- tipos de examenescultivos,orden, muestras, de acuerdo al paciente, examen y expediente (reacciones a proceso), firma de medico de cajon
+
+
+registro de salas y consultorios(inventario de salas), todo en buenas condiciones
+
+agenda ---  electronica
